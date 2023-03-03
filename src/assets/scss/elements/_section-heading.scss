@@ -949,9 +949,11 @@
 .my_switcher {
     position: fixed;
     top: 200px;
-    left: 0;
-    background-color: var(--color-primary);
-    border-radius: 0 30px 30px 0;
+    left: 0px;
+    background-color: #194DA2;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 15px #00000028;
     padding: 10px;
     z-index: 5;
     @media #{$md-layout} {

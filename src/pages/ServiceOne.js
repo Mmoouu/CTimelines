@@ -26,7 +26,7 @@ const ServiceOne = () => {
 
     return (
         <>
-        <SEO title="Service One" />
+        <SEO title="Cardano Timeline 2022" />
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />

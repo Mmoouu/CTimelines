@@ -7,7 +7,7 @@
     color-scheme: dark;
 
 
-    --dark-main-body: #212121;
+    --dark-main-body: var(--color-dark-body);
     --dark-bg-color: var(--color-dark);
     --dark-body-text: #D3D3D4;
     --dark-title-light: #D3D3D4;
@@ -203,7 +203,7 @@
     .shape-group-7  {
         .shape {
             img {
-                filter: brightness(0.2);
+                filter: brightness(0.8);
             }
         }
     }
@@ -217,7 +217,7 @@
     .shape-group-9 {
         .shape {
             img {
-                filter: brightness(0.5);
+                filter: brightness(0.8);
 
             }   
         }
@@ -274,11 +274,13 @@
         .shape-1 {
             img {
                 filter: brightness(0.1);
+                filter: opacity(0.1);
             }
         }
         .shape-2 {
             img {
                 filter: brightness(0.3);
+                filter: opacity(0.1);
             }
         }
     }
@@ -387,7 +389,7 @@
             .header-action {
                 .sidemenu-btn {
                     .btn-wrap {
-                        background-color: #464646;
+                        background-color: var(--color-dark);
                     }
                 }
                 .social-icon-list {
@@ -469,7 +471,7 @@
     .header-action {
         .sidemenu-btn {
             .btn-wrap {
-                background-color: var(--color-body);
+                background-color: var(--color-dark);
                 span {
                     background-color: var(--dark-title-light);
                 }

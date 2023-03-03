@@ -1,6 +1,6 @@
 import React from 'react';
 import {useParams} from 'react-router-dom';
-import FooterOne from '../common/footer/FooterOne';
+import FooterSimple from '../common/footer/FooterSimple';
 import HeaderOne from '../common/header/HeaderOne';
 import SEO from '../common/SEO';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
@@ -13,7 +13,6 @@ import Tilty from 'react-tilty';
 
 const allData = TeamData;
 
-
 const TeamDetails = () => {
 
     const params = useParams();
@@ -25,11 +24,11 @@ const TeamDetails = () => {
     return (
         <>
         <SEO title="Team" />
-        <ColorSwitcher />
+        {/* <ColorSwitcher /> */}
             <main className="main-wrapper">
                 <HeaderOne />
                 <BreadCrumbOne 
-                 title={detailsTeam.title}
+                //  title={detailsTeam.title}
                  page="Team Details"
 
                 />
@@ -40,15 +39,12 @@ const TeamDetails = () => {
                             <div className="team-details-content">
                             <h2 className="title">{detailsTeam.title}</h2>
                             <span className="subtitle" dangerouslySetInnerHTML={{__html: detailsTeam.designation}}></span>
-                            <ul className="social-share list-unstyled">
-                                <li><a href={detailsTeam.social.facebook}><FaFacebookF /></a></li>
-                                <li><a href={detailsTeam.social.twitter}><FaTwitter /></a></li>
-                                <li><a href={detailsTeam.social.pinterst}><FaPinterestP /></a></li>
-                                <li><a href={detailsTeam.social.linkedin}><FaLinkedinIn /></a></li>
-                                <li><a href={detailsTeam.social.instagram}><FaInstagram /></a></li>
-                                <li><a href={detailsTeam.social.vimeo}><FaVimeoV /></a></li>
-                                <li><a href={detailsTeam.social.dribble}><FaDribbble /></a></li>
-                                <li><a href={detailsTeam.social.behance}><FaBehance /></a></li>
+                            <ul className="social-share list-unstyled"> 
+                                { detailsTeam.social.linkedin && <li><a target={'_blank'} href={detailsTeam.social.linkedin}><img src={process.env.PUBLIC_URL + '/images/icon/linkedin-light.svg'}></img></a></li> }
+                                { detailsTeam.social.twitter && <li><a target={'_blank'} href={detailsTeam.social.twitter}><img src={process.env.PUBLIC_URL + '/images/icon/twitter-light.svg'}></img></a></li> }
+                                { detailsTeam.social.instagram && <li><a target={'_blank'} href={detailsTeam.social.instagram}><img src={process.env.PUBLIC_URL + '/images/icon/instagram-light.svg'}></img></a></li> }
+                                { detailsTeam.social.telegram && <li><a target={'_blank'} href={detailsTeam.social.telegram}><img src={process.env.PUBLIC_URL + '/images/icon/telegram-light.svg'}></img></a></li> }
+                                { detailsTeam.social.behance && <li><a target={'_blank'} href={detailsTeam.social.behance}><img src={process.env.PUBLIC_URL + '/images/icon/behance-light.svg'}></img></a></li> }                             
                             </ul> 
                             <p dangerouslySetInnerHTML={{__html: detailsTeam.description }}></p>
                             </div>
@@ -65,7 +61,7 @@ const TeamDetails = () => {
                 </div>
 
                 <CtaLayoutOne />
-                <FooterOne parentClass="" />
+                <FooterSimple />
             </main>
         </>
     )

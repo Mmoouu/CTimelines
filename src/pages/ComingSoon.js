@@ -2,6 +2,7 @@ import React from 'react';
 import SEO from '../common/SEO';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import { Link } from 'react-router-dom';
+import HeaderOne from '../common/header/HeaderOne';
 import { FaEnvelopeOpen } from "react-icons/fa";
 import Countdown from 'react-countdown';
 
@@ -45,32 +46,20 @@ const ComingSoon = () => {
         <SEO title="Coming Soon" />
         <ColorSwitcher />
             <main className="main-wrapper">
+            <HeaderOne />
                 <div className="coming-soon-area onepage-screen-area">
                     <div className="container">
                         <div className="row align-items-center justify-content-center">
-                        <div className="col-12">
-                            <div className="site-logo">
-                                <Link to={process.env.PUBLIC_URL + "/"} className="logo-light"><img src={process.env.PUBLIC_URL + "/images/logo-2.svg"} alt="Logo" /></Link>
-                                <Link to={process.env.PUBLIC_URL + "/"} className="logo-dark"><img src={process.env.PUBLIC_URL + "/images/logo-3.svg"} alt="Logo" /></Link>
-                            </div>
-                        </div>
                         <div className="col-xl-6 col-lg-8">
                             <div className="content">
-                            <h2 className="title">Our new website is on its way</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <Countdown date={SetCountdownTime} zeroPadTime={3} renderer={CountDownRender}></Countdown>
-                            <form>
-                                <div className="input-group">
-                                    <span className="mail-icon"><FaEnvelopeOpen /> </span>
-                                    <input type="email" className="form-control" placeholder="Email address" />
-                                    <button className="subscribe-btn" type="submit">Notify Me</button>
-                                </div>
-                            </form>
+                            <h2 className="title">Cardano Research Timeline 2022</h2>
+                            <h4>Our new collection is on the way</h4><br></br>                           
+                            <Link to={process.env.PUBLIC_URL + "/"} className="axil-btn btn-fill-primary btn-large">Go Back</Link>
                             </div>
                         </div>
                         <div className="col-xl-6">
                             <div className="thumbnail">
-                                <img src={process.env.PUBLIC_URL + "/images/others/coming-soon.png"} alt="Coming Soon" />
+                                <img src={process.env.PUBLIC_URL + "/images/others/coming-soon-2.png"} alt="Coming Soon" />
                             </div>
                         </div>
                         </div>
@@ -79,7 +68,7 @@ const ComingSoon = () => {
                         <li className="shape shape-2">
                             <img src={process.env.PUBLIC_URL + "/images/others/bubble-28.png"} alt="Bubble" />
                         </li>
-                        <li className="shape shape-3">
+                        <li className="shape shape-1">
                             <img src={process.env.PUBLIC_URL + "/images/others/line-4.png"} alt="Line" />
                         </li>
                     </ul>

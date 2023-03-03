@@ -9,11 +9,13 @@ const ColorSwitcher = () => {
     }
 
     return (
-        <div className="my_switcher d-none d-lg-block">
+        <div>
+        {/* <div className="my_switcher d-none d-lg-block">
             <button onClick={switchColor}>
                 <span className="setColor dark"><FaLightbulb /></span>
                 <span className="setColor light"><FaMoon /></span>
             </button>
+        </div> */}
         </div>
     )
 }

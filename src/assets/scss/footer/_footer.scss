@@ -2,9 +2,13 @@
    Footer Styles
 -------------------------*/
 .footer-area {
-    padding-top: 10px;
+    padding-top: 0px;
 }
 .footer-top {
+    padding-top: 0px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
     padding-bottom: 70px;
     @media #{$md-layout} {
         padding-bottom: 50px;
@@ -22,11 +26,17 @@
                 color: var(--color-gray-3);
                 font-size: 30px;
                 padding: 5px;
+                opacity: 0.6;
                 @media #{$md-layout} {
                    font-size: 20px;
+                   opacity: 0.6;
                 }
                 &:hover {
                     color: var(--color-link);
+                    opacity: 1;
+                }
+                img{
+                    width: 50px;
                 }
            }
        }

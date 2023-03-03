@@ -212,6 +212,9 @@ html {
         right: auto;
         left: 100px;
         text-align: left;
+        img{
+            visibility: hidden;
+        }
     }
     .shape.shape-2 {
         left: auto;
@@ -363,6 +366,16 @@ html {
                 }
                 @media #{$md-layout} {
                     margin-left: 0;
+                }
+
+            }
+            .large-thumb-2-absolute {
+                left: -50px;
+                @media #{$smlg-device} {
+                    left: -30px;
+                }
+                @media #{$md-layout} {
+                    left: 0;
                 }
 
             }

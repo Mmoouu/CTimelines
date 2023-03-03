@@ -26,7 +26,7 @@ const CaseStudyProp = () => {
                     <span className="subtitle">{data.subtitle}</span>
                     <h2 className="title">{data.title}</h2>
                     <p>{data.excerpt}</p>
-                    <Link to={process.env.PUBLIC_URL + `/case-details/${slugify(data.title)}`} className="axil-btn btn-fill-primary btn-large">Read Case Study</Link>
+                    <Link to={process.env.PUBLIC_URL + `/case-details/${slugify(data.title)}`} className="axil-btn btn-fill-primary btn-large">Button</Link>
                 </div>
                 <div className="case-study-counterup">
                     <div className="single-counterup">
@@ -40,7 +40,7 @@ const CaseStudyProp = () => {
                             </TrackVisibility>
                             <span className="symbol">%</span>
                         </div>
-                        <span className="counter-title">ROI increase</span>
+                        <span className="counter-title">Optional Information</span>
                     </div>
                     <div className="single-counterup">
                         <div className="count-number h3">
@@ -53,7 +53,7 @@ const CaseStudyProp = () => {
                             </TrackVisibility>
                             <span className="symbol">+</span>
                         </div>
-                        <span className="counter-title">Monthly website visits</span>
+                        <span className="counter-title">Optional Information</span>
                     </div>
                 </div>
                 </div>
@@ -92,7 +92,7 @@ const CaseStudyProp = () => {
                             </TrackVisibility>
                             <span className="symbol">%</span>
                         </div>
-                        <span className="counter-title">ROI increase</span>
+                        <span className="counter-title">Optional Information</span>
                     </div>
                     <div className="single-counterup">
                         <div className="count-number h3">
@@ -105,7 +105,7 @@ const CaseStudyProp = () => {
                             </TrackVisibility>
                             <span className="symbol">+</span>
                         </div>
-                        <span className="counter-title">Monthly website visits</span>
+                        <span className="counter-title">Optional Information</span>
                     </div>
                 </div>
                 </div>

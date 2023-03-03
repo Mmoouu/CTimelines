@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { FaAngleDown } from "react-icons/fa";
 
 
@@ -7,39 +7,19 @@ const Nav = () => {
     return (
         <nav className="mainmenu-nav">
             <ul className="mainmenu">
-                <li className="menu-item-has-children">
-                    <Link to="#">Digital Agency <FaAngleDown /> </Link>
-                    <ul className="axil-submenu">
-                        <li><Link to={process.env.PUBLIC_URL + "/digital-agency"}>Digital Agency</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/creative-agency"}>Creative Agency</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/personal-portfolio"}>Personal Portfolio</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/home-startup"}>Home Startup</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/corporate-agency"}>Corporate Agency</Link></li>
-                        <li><a href="https://new.axilthemes.com/demo/react/abstrak-rtl/">RTL Demo</a></li>
-                    </ul>
-                </li>
-                <li className="menu-item-has-children">
-                    <Link to="#">Services <FaAngleDown /></Link>
+                <li><NavLink className={"isActive"} to={process.env.PUBLIC_URL + "/"}>Home</NavLink></li>
+                {/* <li className="menu-item-has-children">
+                    <Link to="#">Home <FaAngleDown /></Link>
                     <ul className="axil-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/service-one"}>Service</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/service-two"}>Service Two</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/service-details/design"}>Service Details</Link></li>
-                    </ul>
-                </li>
-                <li className="menu-item-has-children">
-                    <Link to="#">Portfolio <FaAngleDown /></Link>
-                    <ul className="axil-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/project-grid-one"}>Two Column</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/project-grid-two"}>Three Column</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/project-grid-three"}>Four Column</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/project-width-one"}>Three Column Width</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/project-width-two"}>Four Column Width</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/project-details/plan-management"}>Portfolio Details</Link></li>
-                    </ul>
-                </li>
-                <li className="menu-item-has-children">
-                    <Link to="#">Pages <FaAngleDown /></Link>
-                    <ul className="axil-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/about-us"}>About Us</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/our-office"}>Our Office</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/case-study"}>Case Study</Link></li>
@@ -49,23 +29,30 @@ const Nav = () => {
                         <li><Link to={process.env.PUBLIC_URL + "/our-clients"}>Our Clients</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/testimonials"}>Testimonial</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/pricing-table"}>Pricing Table</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/typography"}>Typography</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "/404"}>404 Page</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/coming-soon"}>Coming Soon</Link></li>
-                    </ul>
-                </li>
-                <li className="menu-item-has-children">
-                    <Link to="#">Blog <FaAngleDown /></Link>
-                    <ul className="axil-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/blog-grid"}>Blog</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/1"}>Standard Post</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/2"}>Gallery Post</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/blog-details/3"}>Video Post</Link></li>
-                        {/* <li><Link to={process.env.PUBLIC_URL + "#"}>Audio Post</Link></li>
-                        <li><Link to={process.env.PUBLIC_URL + "#"}>Quote Post</Link></li> */}
+                    </ul>
+                </li> */}
+                <li className="menu-item-has-children">
+                    <Link to="#">NFT Collections<FaAngleDown /></Link>
+                    <ul className="axil-submenu">
+                        <li><NavLink to={process.env.PUBLIC_URL + "/cardano-timeline-2022"}>Cardano Timeline 2022</NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/coming-soon"}>Research Timeline 2022</NavLink></li>
                     </ul>
                 </li>
-                <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
+                <li><NavLink to={process.env.PUBLIC_URL + "/about-us"}>About Us</NavLink></li>
+                <li><a target={'_blank'} href="https://doc.ctimelines.io/">Docs</a></li>
+                <li className="menu-item-has-children button_mint">
+                    <Link to="#">Mint<FaAngleDown /></Link>
+                    <ul className="axil-submenu">
+                        <li><a target={'_blank'} href="https://buy.tangocrypto.com?q=eyJjb2xsZWN0aW9uX2lkIjoiMDFncWpzdmIzdHo3bWVzNGY2djZlYWc3azciLCJwaGFzZV9pZCI6IjAxZ3RhZHJwOTZzYmg4Z2dhbWQ3MDJteG1lIiwicHJpY2VfaWQiOiIwMWd0YWRycDkzNDc1end6dmJmaDJ5djd4MiIsInR5cGUiOiJQaGFzZVNhbGUiLCJpc19yYW5kb20iOnRydWUsInRjYyI6InFYK3BnSVJtNEJuYlVUdlJxc3hrZWUveVVLOS9BMzFJbVRhaTE3UFFqNXVVTGdmYS9HeGc0T0lsQml4cmFxdlFKUVBHekhVVXZvQXRHT21NbTdGRGNuV1JQa0N3aGtGcmJ4VDQ2Slh5QnBFcDJlaEtsU3dpbGt2UUIxVFZBZz09In0">1xNFT 30 ADA</a></li>
+                        <li><a target={'_blank'} href="https://buy.tangocrypto.com?q=eyJjb2xsZWN0aW9uX2lkIjoiMDFncWpzdmIzdHo3bWVzNGY2djZlYWc3azciLCJwaGFzZV9pZCI6IjAxZ3RhZHJwOTZzYmg4Z2dhbWQ3MDJteG1lIiwicHJpY2VfaWQiOiIwMWd0YWRycDkzODRjZDRidjZ2MzlwYjB4MiIsInR5cGUiOiJQaGFzZVNhbGUiLCJpc19yYW5kb20iOnRydWUsInRjYyI6InFYK3BnSVJtNEJuYlVUdlJxc3hrZWUveVVLOS9BMzFJbVRhaTE3UFFqNXVVTGdmYS9HeGc0T0lsQml4cmFxdlFKUVBHekhVVXZvQXRHT21NbTdGRGNuV1JQa0N3aGtGcmJ4VDQ2Slh5QnBFcDJlaEtsU3dpbGt2UUIxVFZBZz09In0">3xNFT 75 ADA</a></li>
+                    </ul>
+                </li>
+                                
             </ul>
         </nav>
     )

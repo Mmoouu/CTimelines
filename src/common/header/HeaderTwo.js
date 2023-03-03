@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Logo from '../../elements/logo/Logo';
-import Nav from './Nav';
+import Nav from '../../common/header/Nav';
 import OffcanvasMenu from './OffcanvasMenu';
 import StickyHeader from './StickyHeader';
 import SwitcherHeader from '../../elements/switcher/SwitcherHeader';
@@ -32,14 +32,15 @@ const HeaderTwo = () => {
         }
     }
 
+
     return (
         <>
-            <header className="header axil-header header-style-2">
+            <header className="header axil-header header-style-1">
                 <div className={`axil-mainmenu ${sticky ? "axil-sticky" : ""}`}>
-                    <div className="container-fluid">
+                    <div className="container">
                         <div className="header-navbar">
                             <div className="header-logo">
-                                <Logo limage="/images/logo-2.svg"
+                                <Logo limage="/images/logo-3.svg"
                                 dimage="/images/logo-3.svg"
                                 simage="/images/logo-2.svg"
                                 />
@@ -49,21 +50,23 @@ const HeaderTwo = () => {
                             </div>
                             <div className="header-action">
                                 <ul className="list-unstyled">
-                                    <li className="sidemenu-btn d-lg-block d-none">
-                                        <button className="btn-wrap btn-dark" onClick={OffcanvasHandleShow}>
+                                {/* <li className="sidemenu-btn d-lg-block d-none"> */}
+                                    <li className="sidemenu-btn d-none">
+                                        <button className="btn-wrap" onClick={OffcanvasHandleShow}>
                                             <span></span>
                                             <span></span>
                                             <span></span>
                                         </button>
                                     </li>
                                     <li className="mobile-menu-btn sidemenu-btn d-lg-none d-block">
-                                        <button className="btn-wrap btn-dark" onClick={MobileMenuHandler}>
+                                        <button className="btn-wrap" onClick={MobileMenuHandler}>
                                             <span></span>
                                             <span></span>
                                             <span></span>
                                         </button>
                                     </li>
-                                    <li className="my_switcher d-block d-lg-none">
+                                    {/* <li className="my_switcher d-block d-lg-none"> */}
+                                    <li className="my_switcher d-lg-none">
                                         <SwitcherHeader />
                                     </li>
                                 </ul>

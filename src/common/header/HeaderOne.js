@@ -50,7 +50,8 @@ const HeaderOne = () => {
                             </div>
                             <div className="header-action">
                                 <ul className="list-unstyled">
-                                    <li className="sidemenu-btn d-lg-block d-none">
+                                {/* <li className="sidemenu-btn d-lg-block d-none"> */}
+                                    <li className="sidemenu-btn d-none">
                                         <button className="btn-wrap" onClick={OffcanvasHandleShow}>
                                             <span></span>
                                             <span></span>
@@ -64,7 +65,8 @@ const HeaderOne = () => {
                                             <span></span>
                                         </button>
                                     </li>
-                                    <li className="my_switcher d-block d-lg-none">
+                                    {/* <li className="my_switcher d-block d-lg-none"> */}
+                                    <li className="my_switcher d-lg-none">
                                         <SwitcherHeader />
                                     </li>
                                 </ul>

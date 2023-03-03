@@ -12,29 +12,29 @@ const WhyChooseOne = () => {
             <div className="col-lg-6">
                 <div className="why-choose-us">
                 <SectionTitle 
-                    subtitle="About Us"
-                    title="Why branding matters?"
-                    description="Ut condimentum enim nec diam convallis mollis. Sed felis quam, semper dapibus purus sed, rhoncus ullamcorper lacus."
+                    
+                    title="Collect Them"
+                    description="Put them together and you will become the owner of an NFT that will prove you are a Guardian of Cardano's history."
                     textAlignment="heading-left"
                     textColor=""
                 />
                     <Accordion defaultActiveKey="1">
                         <Accordion.Item eventKey="1">
-                            <Accordion.Header><FaCompress /> Strategy</Accordion.Header>
+                            <Accordion.Header><FaCompress /> Size</Accordion.Header>
                             <Accordion.Body>
-                            Aenean hendrerit laoreet vehicula. Nullam convallis augue at enim gravida pellentesque.
+                            Description data description data description data description data.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
                             <Accordion.Header><FaCode /> Design</Accordion.Header>
                             <Accordion.Body>
-                            Aenean hendrerit laoreet vehicula. Nullam convallis augue at enim gravida pellentesque.
+                            Description data description data description data description data.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
                             <Accordion.Header><FaGlobe /> Development</Accordion.Header>
                             <Accordion.Body>
-                            Aenean hendrerit laoreet vehicula. Nullam convallis augue at enim gravida pellentesque.
+                            Description data description data description data description data.
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
@@ -43,7 +43,7 @@ const WhyChooseOne = () => {
             <div className="col-xl-5 col-lg-6 offset-xl-1">
                 <div className="why-choose-us mb--30">
                 <div className="why-choose-thumb">
-                    <img src={process.env.PUBLIC_URL + "/images/about/about-3.png"} alt="Office" />
+                    <img src={process.env.PUBLIC_URL + "/images/nft/nft.gif"} alt="Office" />
                 </div>
                 </div>
             </div>

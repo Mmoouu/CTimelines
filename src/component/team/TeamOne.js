@@ -7,17 +7,17 @@ const allData = TeamData;
 
 const TeamOne = () => {
     return (
-        <div className="section section-padding bg-color-dark pb--70 pb_lg--20 pb_md--0">
+        <div className="section section-padding bg-color-light pb--70 pb_lg--20 pb_md--0">
         <div className="container">
-            <div className="section-heading heading-light">
+            <div className="section-heading heading-dark">
             <span className="subtitle">Our valus</span>
             <h2 className="title mb--50">Meet The Team</h2>
-            <p>Nulla facilisi. Nullam in magna id dolor 
-                blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet.</p>
+            {/* <p>Texto descriptivo texto descriptivo texto descriptivo</p> */}
+            <br></br>
             </div>
             <div className="row">
                 {allData.map((data) => (
-                    <div className="col-xl-3 col-sm-6" key={data.id}>
+                    <div className="col-xl-4 col-sm-6" key={data.id}>
                         <div className="team-grid">
                             <div className="thumbnail">
                                 <Link to={process.env.PUBLIC_URL + `/team-details/${slugify(data.title)}`}>
@@ -40,7 +40,7 @@ const TeamOne = () => {
         <ul className="list-unstyled shape-group-10">
             <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-1.png"} alt="Circle" /></li>
             <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-3.png"} alt="Circle" /></li>
-            <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"} alt="Circle" /></li>
+            {/* <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"} alt="Circle" /></li> */}
         </ul>
     </div>
 

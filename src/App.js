@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // Home Pages Import
+import Home from './pages/Home';
+import CardanoTimeline2022 from './pages/CardanoTimeline2022';
 import DigitalAgency from './pages/DigitalAgency';
 import CreativeAgency from './pages/CreativeAgency';
 import PersonalPortfolio from './pages/PersonalPortfolio';
@@ -31,12 +33,13 @@ import ProjectGridFour from './pages/ProjectGridFour';
 import ProjectDetails from './pages/ProjectDetails';
 
 // Pages 
-import Splash from './pages/Splash';
+// import Splash from './pages/Splash';
 import AboutUs from './pages/AboutUs';
 import OurOffice from './pages/OurOffice';
 import OurClients from './pages/OurClients';
 import Team from './pages/Team';
 import TeamDetails from './pages/TeamDetails';
+import NftDetails from './pages/NftDetails';
 import CaseStudy from './pages/CaseStudy';
 import CaseDetails from './pages/CaseStudyDetails';
 import Testimonials from './pages/Testimonials';
@@ -53,12 +56,14 @@ import './assets/scss/app.scss';
 
 
 const App = () => {
+	document.querySelector('body').classList.add("active-light-mode");
   return (
     <Router>
 		<ScrollToTop>
 			<Routes>
-				<Route path={process.env.PUBLIC_URL + "/"} element={<Splash />}/>
+				<Route path={process.env.PUBLIC_URL + "/"} element={<Home />}/>
 
+				<Route path={process.env.PUBLIC_URL + "/cardano-timeline-2022"} element={<CardanoTimeline2022 />}/>
 				<Route path={process.env.PUBLIC_URL + "/digital-agency"} element={<DigitalAgency />}/>
 				<Route path={process.env.PUBLIC_URL + "/creative-agency"} element={<CreativeAgency />}/>
 				<Route path={process.env.PUBLIC_URL + "/personal-portfolio"} element={<PersonalPortfolio />}/>
@@ -90,6 +95,7 @@ const App = () => {
 				<Route path={process.env.PUBLIC_URL + "/our-clients"} element={<OurClients />}/>
 				<Route path={process.env.PUBLIC_URL + "/team"} element={<Team />}/>
 				<Route path={process.env.PUBLIC_URL + "/team-details/:slug"} element={<TeamDetails />}/>
+				<Route path={process.env.PUBLIC_URL + "/nft-details/:slug"} element={<NftDetails />}/>
 				<Route path={process.env.PUBLIC_URL + "/case-study"} element={<CaseStudy />}/>
 				<Route path={process.env.PUBLIC_URL + "/case-details/:slug"} element={<CaseDetails />}/>
 				<Route path={process.env.PUBLIC_URL + "/testimonials"} element={<Testimonials />}/>

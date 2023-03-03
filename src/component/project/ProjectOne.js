@@ -7,15 +7,11 @@ import ProjectData from "../../data/project/ProjectData.json";
 const filters = [
 	{
 		id: 1,
-		label: "All Works",
+		label: "All NFT's",
     },
     {
 		id: 2,
-		label: "Branding",
-    },
-    {
-		id: 3,
-		label: "Mobile",
+		label: "Cardano Timeline 2022 NFT",
     }
 ];
 
@@ -64,13 +60,13 @@ const ProjectOne = ({parentClass, colSize, itemShow, columnGap}) => {
 			<div className={`section section-padding-2 ${parentClass ? parentClass : ""}`}>
                 <div className="container">
                 <SectionTitle 
-                        subtitle="Our Project"
-                        title="Some of our <br>
-                        finest work."
+                        subtitle="NFT Collection"
+                        title="Cardano Timeline 2022."
+						description="The History is Fragmented into 6 NFT pieces, each representing a Cardano era."
                         textAlignment="heading-left mb--40"
                         textColor=""
                     />
-                    <div className="isotope-button isotope-project-btn">
+                    {/* <div className="isotope-button isotope-project-btn">
 
 						{filters.map((filter) => (
 							<button onClick={handleChange} className={
@@ -81,7 +77,7 @@ const ProjectOne = ({parentClass, colSize, itemShow, columnGap}) => {
 							key={filter.id}>{filter.label}</button>
 						))}
 
-					</div>
+					</div> */}
 					<div className={`row ${columnGap ? columnGap : "row-35"}`}>
 						{visibleItems.map((data) => (
 							<div className={colSize ? colSize : "col-md-6"} key={data.id}>

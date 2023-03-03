@@ -175,19 +175,28 @@
         .banner-thumbnail {
             z-index: 5;
             .large-thumb {
+                padding-bottom: 250px;
                 @media #{$laptop-device} {
+                    padding-bottom: 215px;
                     img {
                         width: 74%;
                     }
                 }
+                @media #{$smlg-device} {
+                    padding-bottom: 210px;
+                }
+                @media #{$md-layout} {
+                    padding-bottom: 50px;
+                }
                 @media #{$sm-layout} {
+                    padding-bottom: 20px;
                     // display: none;
                 }
             }
             .large-thumb-2 {
                 text-align: right;
                 margin-top: -260px;
-                margin-right: -50px;
+                margin-right: -50px;    
                 @media #{$laptop-device} {
                     img {
                         width: 85%;
@@ -210,6 +219,63 @@
                     position: absolute;
                     bottom: 0;
                 }
+            }
+            .large-thumb-2-absolute {
+                position: absolute;
+                bottom: 0;
+                right: -50px;   
+                @media #{$laptop-device} {
+                    img {
+                        width: 85%;
+                    }
+                }
+                @media #{$smlg-device} {
+                    right: -90px;
+                    img {
+                        width: 80%;
+                    }
+                }
+                @media #{$md-layout} {
+                    right: 0;
+                    right: -50px;
+                }
+                @media #{$sm-layout} {
+                    position: absolute;
+                    bottom: 0;
+                }
+                animation: 2s ease-out 0s 1 slideInFromRight;
+            }
+            @-webkit-keyframes slideInFromRight {
+                from {
+                    -webkit-transform: translate3d(50%, 0, 0);
+                    transform: translate3d(50%, 0, 0);
+                    opacity: 0;
+                }
+              
+                to {
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+                    opacity: 1;
+                }
+            }
+              
+            @keyframes slideInFromRight {
+                from {
+                    -webkit-transform: translate3d(50%, 0, 0);
+                    transform: translate3d(50%, 0, 0);
+                    opacity: 0;
+                }
+              
+                to {
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+                    opacity: 1;
+                }
+            }
+              
+            .slideInFromRight {
+                -webkit-animation-name: slideInFromRight;
+                animation-name: slideInFromRight;
             }
             .shape-group {
                 .shape {

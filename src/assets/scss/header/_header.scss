@@ -30,9 +30,9 @@
         }
         .header-main-nav {
             flex: 1;
-            margin: 0 55px 0 50px;
+            margin: 0 0px 0 50px;
             @media #{$smlg-device} {
-                margin: 0 30px;
+                margin: 0 0px;
             }
             @media #{$md-layout} {
                 margin: 0;  
@@ -215,7 +215,7 @@
         .header-action {
             .sidemenu-btn {
                 .btn-wrap {
-                    background-color: var(--color-body);
+                    background-color: var(--color-primary);
                     span {
                        background-color: var(--color-white);
 
@@ -304,10 +304,10 @@
             background: #ffffff;
             z-index: -1;
             opacity: 0;
-            visibility: hidden;
-            min-width: 250px;
+            visibility: hidden;            
             padding: 15px 10px;
             border-radius: 4px;
+            width: max-content;
             transition: var(--transition);
             list-style: none;
             margin: 0;
@@ -333,21 +333,21 @@
                         width: 0;
                         background-color: var(--color-primary);
                         position: absolute;
-                        top: 50%;
-                        left: 0;
+                        top: 80%;
+                        left: 5%;
                         transform: translateY(-50%);
                         transition: var(--transition);
                     }
                     &:hover {
-                        color: var(--color-primary);
+                        color: var(--color-body);
                         &::after {
-                            width: 100%;
+                            width: 90%;
                         }
                     }
                     &.active {
                         color: var(--color-primary);
                         &::after {
-                            width: 100%;
+                            width: 90%;
                         }
                     }
                 }
@@ -404,6 +404,7 @@
     }
 }
 
+
 // Header Action
 .header-action {
     >ul {
@@ -412,12 +413,16 @@
         flex-wrap: wrap;
         >li {
             margin-right: 30px;
+            &:first-child {
+                display:none;
+            }   
             &:last-child {
                 margin-right: 0;
             }   
         }
     }
     .sidemenu-btn {
+
         margin-right: 0;
         .btn-wrap {
             height: 60px;
@@ -864,7 +869,7 @@
                         display: block;
                     }
                 }
-            }
+            }            
         }
     }
 
@@ -881,6 +886,47 @@
         }
     }
 }
+
+.mainmenu{
+    li.button_mint {
+        margin: 0;
+        background: var(--color-light);
+        padding: 0 24px;
+        border-radius: 30px;
+        transition: all 3s;
+        &:hover {
+            background: var(--color-light);
+        }       
+    }
+    li.button_mint_banner{
+        display: block;
+        margin: 0 auto;
+        background: #56adad;
+        padding: 12px;
+        text-align: center;
+        border-radius: 20px;
+        transition: all 3s;
+        a{
+            color:#fff;
+            text-align: center;
+            margin-left: 40px;
+            font-size: 18px;
+        }
+        &:hover {
+            background: #328e6f;
+        }
+        .axil-submenu {
+            width: auto;
+            padding-right: 18px;
+            li{
+                a{
+                    margin: 0px;
+                }
+            }     
+        }       
+    }
+}
+
 
 
 

@@ -1,5 +1,6 @@
 [
 
+    
     {
         "fromtext": "Yelp",
         "from": "/images/icon/yelp-2.png",
@@ -71,6 +72,14 @@
         "authorimg": "/images/testimonial/testimonial-3.png",
         "authorname": "Floyd Miles",
         "authordesig": "Executive Chairman"
-    }
+    },
+    {
+        "fromtext": "CTimelines",
+        "from": "",
+        "description": "“ Let me tell you something young man. If it weren't for history, we wouldn't all be sitting this table ”",
+        "authorimg": "",
+        "authorname": "The boy in the striped pajamas",
+        "authordesig": ""
+    }   
 
 ]

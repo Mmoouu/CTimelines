@@ -3,7 +3,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Link } from 'react-router-dom';
 
 
-const BannerOne = () => {
+const BannerHome = () => {
     return (
         <div className="banner banner-style-1">
             <div className="container">
@@ -11,9 +11,9 @@ const BannerOne = () => {
                     <div className="col-lg-6">
                         <div className="banner-content">
                             <AnimationOnScroll animateIn="fadeInUp" animateOnce={true} delay={100}>
-                                <h1 className="title">Build beautiful website &amp; mobile apps.</h1>
-                                <span className="subtitle">Create live segments and target the right people for messages based on their behaviors.</span>
-                                <Link to={process.env.PUBLIC_URL + "/contact"} className="axil-btn btn-fill-primary btn-large">Get Started</Link>
+                                <h1 className="title">Cardano's History deserves to be preserved</h1>
+                                <span className="subtitle">Our mission is to disseminate, through NFT collection type infographics, the historical development of our vast ecosystem.</span>
+                                <Link to={process.env.PUBLIC_URL + "/cardano-timeline-2022"} className="axil-btn btn-fill-primary btn-large">Cardano Timeline 2022</Link>
                             </AnimationOnScroll>
                         </div>
                     </div>
@@ -48,10 +48,10 @@ const BannerOne = () => {
                     <img src={process.env.PUBLIC_URL + "/images/others/bubble-38.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-3">
-                    <img src={process.env.PUBLIC_URL + "/images/others/bubble-14.png"} alt="Bubble" />
+                    <img src={process.env.PUBLIC_URL + "/images/others/bubble-14-2.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-4">
-                    <img src={process.env.PUBLIC_URL + "/images/others/bubble-14.png"} alt="Bubble" />
+                    <img src={process.env.PUBLIC_URL + "/images/others/bubble-14-3.png"} alt="Bubble" />
                 </li>
                 <li className="shape shape-5">
                     <img src={process.env.PUBLIC_URL + "/images/others/bubble-14.png"} alt="Bubble" />
@@ -67,4 +67,4 @@ const BannerOne = () => {
     )
 }
 
-export default BannerOne;
+export default BannerHome;

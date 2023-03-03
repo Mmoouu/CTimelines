@@ -10,11 +10,22 @@ const CtaLayoutOne = () => {
             <div className="container">
                 <div className="call-to-action">
                     <div className="section-heading heading-light">
-                        <span className="subtitle">Let's Work Together</span>
-                        <h2 className="title">Need a successful project?</h2>
-                        <Link to={process.env.PUBLIC_URL + "/contact"} className="axil-btn btn-large btn-fill-white">
-                            Estimate Project
+                        {/* <span className="subtitle">Contact Us</span> */}
+                        <h2 className="title">Join Us</h2>
+                        <Link to={process.env.PUBLIC_URL + "/contact"} className="icon">
+                            <img src=""></img>
                         </Link>
+                    </div>
+                    <div className="footer-top">
+                        <div className="footer-social-link">
+                            <ul className="list-unstyled">
+                                <li><a target={'_blank'} href="https://twitter.com/CTimelines_io"><img src={process.env.PUBLIC_URL + "/images/icon/twitter-dark.svg"}/></a></li>
+                                <li><a target={'_blank'} href="https://t.me/ctimelines"><img src={process.env.PUBLIC_URL + "/images/icon/telegram-dark.svg"}/></a></li>
+                                <li><a target={'_blank'} href="https://www.youtube.com/channel/UCp4RuX6EgQQ8MsVVM0PLJDw"><img src={process.env.PUBLIC_URL + "/images/icon/youtube-dark.svg"}/></a></li>
+                                <li><a target={'_blank'} href="https://doc.ctimelines.io/"><img src={process.env.PUBLIC_URL + "/images/icon/gitbook-dark.svg"}/></a></li>
+                                <li><a target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022"><img src={process.env.PUBLIC_URL + "/images/icon/jpgstore-dark.svg"}/></a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div className="thumbnail">
                         <div className="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">
