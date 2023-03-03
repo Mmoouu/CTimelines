@@ -19,7 +19,7 @@ const CardanoTimelineEras = () => {
                             <div className="nfts-eras">
                                 <ul>
                                 {allData.filter(data => data.id >= 1).map((data) => (
-                                    <li><a href={process.env.PUBLIC_URL + `/nft-details/${slugify(data.title2)}`}><img src={process.env.PUBLIC_URL + data.thumb.lg}></img></a></li>                  
+                                    <li><Link to={process.env.PUBLIC_URL + `/nft-details/${slugify(data.title2)}`}><img src={process.env.PUBLIC_URL + data.thumb.lg}></img></Link></li>                  
                                 ))}
                                 </ul>
                             </div>
