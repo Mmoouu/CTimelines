@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import {useParams} from 'react-router-dom';
 import FooterSimple from '../common/footer/FooterSimple';
 import HeaderOne from '../common/header/HeaderOne';
@@ -11,10 +11,15 @@ import { slugify } from '../utils';
 import Tilty from 'react-tilty';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
+import ReactGA from 'react-ga';
 
 const allData = NftData;
 
 const NftDetails = () => {
+
+    useEffect(() => {
+        ReactGA.pageview('/nft-details');
+    }, []);
 
     const params = useParams();
     const nftSlug = params.slug;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import FooterSimple from '../common/footer/FooterSimple';
 import HeaderOne from '../common/header/HeaderOne';
 import SEO from '../common/SEO';
@@ -11,10 +11,15 @@ import WhyChooseOne from '../component/whychoose/WhyChooseOne';
 import Testimonial from '../component/testimonial/Testimonial';
 import TestimonialData from "../data/testimonial/TestimonialData.json";
 import { slugify } from '../utils';
+import ReactGA from 'react-ga';
 
 const allData = TestimonialData;
 
 const Home = () => {
+
+    useEffect(() => {
+        ReactGA.pageview('/home');
+    }, []);
 
     const ctimelinesData = allData.filter(data => slugify(data.fromtext) === "ctimelines");
 

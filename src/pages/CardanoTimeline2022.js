@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import FooterSimple from '../common/footer/FooterSimple';
 import HeaderOne from '../common/header/HeaderOne';
 import HeaderTwo from '../common/header/HeaderTwo';
@@ -15,6 +15,7 @@ import TokenomicsOne from '../component/tokenomics/TokenomicsOne';
 import TokenomicsTwo from '../component/tokenomics/TokenomicsTwo';
 import TokenomicsThree from '../component/tokenomics/TokenomicsThree';
 import BannerCardanoTimeline from '../component/banner/BannerCardanoTimeline';
+import ReactGA from 'react-ga';
 
 const allData = ServiceData;
 
@@ -28,7 +29,9 @@ const CardanoTimeline2022 = () => {
     // const technologyData = allData.filter(data => slugify(data.cate ? data.cate : "") === "technology");
     // const strategyData = allData.filter(data => slugify(data.cate ? data.cate : "") === "content-strategy");
 
-
+    useEffect(() => {
+        ReactGA.pageview('/cardano-timeline');
+    }, []);
 
     return (
         <>

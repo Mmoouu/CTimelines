@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import FooterSimple from '../common/footer/FooterSimple';
 import HeaderOne from '../common/header/HeaderOne';
 import SEO from '../common/SEO';
@@ -9,9 +9,14 @@ import AboutThree from '../component/about/AboutThree';
 import AboutFour from '../component/about/AboutFour';
 import AboutFive from '../component/about/AboutFive';
 import TeamOne from '../component/team/TeamOne';
+import ReactGA from 'react-ga';
 
 
 const AboutUs = () => {
+
+    useEffect(() => {
+        ReactGA.pageview('/about-us');
+    }, []);
 
     return (
         <>

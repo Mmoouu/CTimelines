@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import SEO from '../common/SEO';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import { Link } from 'react-router-dom';
 import HeaderOne from '../common/header/HeaderOne';
 import { FaEnvelopeOpen } from "react-icons/fa";
 import Countdown from 'react-countdown';
+import ReactGA from 'react-ga';
 
 
 const ComingSoon = () => {
+
+    useEffect(() => {
+        ReactGA.pageview('/timeline-research');
+    }, []);
 
     const Completionist = () => <span>Our Site is Ready to Go!</span>;
 

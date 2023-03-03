@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {useParams} from 'react-router-dom';
 import FooterSimple from '../common/footer/FooterSimple';
 import HeaderOne from '../common/header/HeaderOne';
@@ -10,10 +10,15 @@ import TeamData from "../data/team/TeamData.json";
 import { slugify } from '../utils';
 import { FaFacebookF, FaTwitter, FaPinterestP, FaLinkedinIn, FaInstagram, FaVimeoV, FaDribbble, FaBehance } from "react-icons/fa";
 import Tilty from 'react-tilty';
+import ReactGA from 'react-ga';
 
 const allData = TeamData;
 
 const TeamDetails = () => {
+
+    useEffect(() => {
+        ReactGA.pageview('/team-details');
+    }, []);
 
     const params = useParams();
     const teamSlug = params.slug;
