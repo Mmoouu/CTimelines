@@ -902,15 +902,28 @@
         display: block;
         margin: 0 auto;
         background: #56adad;
-        padding: 12px;
+        padding: 13px;
         text-align: center;
         border-radius: 20px;
         transition: all 3s;
+        width: auto;               
+        @media #{$md-layout} {
+            padding: 5px;
+            width: 150px;
+            height: 70px;
+        } 
+        @media #{$sm-layout} {
+            padding: 5px;
+        }
         a{
             color:#fff;
             text-align: center;
             margin-left: 40px;
             font-size: 18px;
+            @media #{$md-layout} {
+                margin-left: 0px;
+                margin-right: 0px !important;
+            }
         }
         &:hover {
             background: #328e6f;

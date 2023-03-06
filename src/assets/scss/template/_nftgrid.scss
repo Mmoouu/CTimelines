@@ -59,14 +59,51 @@
 .nft-timeline-config:nth-child(1){
     width: 19%;
     .thumbnail {
-        width: 100%;              
-    }    
+        width: 100%;               
+    }  
+    @media #{$smlg-device} {
+        width: 100%;
+        .thumbnail {
+            width: 200px;               
+        } 
+    }
+    @media #{$md-layout} {
+        width: 100%;
+        .thumbnail {
+            width: 200px;               
+        } 
+    }
+    @media #{$sm-layout} {
+        width: 100%;
+        .thumbnail {
+            width: 200px;               
+        } 
+    }
+      
 }
 .nft-timeline-config:nth-child(2){
     width: 81%;
     .thumbnail {
         width: 100%;              
     } 
+    @media #{$smlg-device} {
+        width: 100%;
+        .thumbnail {
+            width: 100%;               
+        } 
+    }
+    @media #{$md-layout} {
+        width: 100%;
+        .thumbnail {
+            width: 100%;               
+        } 
+    }
+    @media #{$sm-layout} {
+        width: 100%;
+        .thumbnail {
+            width: 100%;               
+        } 
+    }
 }
 
 .nft-timeline-grid {

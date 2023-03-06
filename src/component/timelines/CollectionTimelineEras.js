@@ -22,7 +22,7 @@ const ColecctionTimelineEras = () => {
                 </div>
                 <div className="row">
                     {allData.filter(data => data.id >= 1).map((data) => (
-                        <div className="col-xl-2 col-sm-12" key={data.id}>
+                        <div className="col-xl-2 col-sm-6" key={data.id}>
                             <div className="nft-grid">
                                 <div className="thumbnail">
                                     <Link to={process.env.PUBLIC_URL + `/nft-details/${slugify(data.title2)}`}>
