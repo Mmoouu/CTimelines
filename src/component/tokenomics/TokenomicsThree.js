@@ -9,8 +9,8 @@ const TocenomicsThree = () => {
             <div className="container-fluid">
                 <div className="banner-content">
                     {/* <h1 className="title">NFT Colection Units</h1> */}
-                    <img src={process.env.PUBLIC_URL + "/images/tokenomics/tokenomics-61.png"} />                            
-                    <Link to={process.env.PUBLIC_URL + "/project-grid-one"} className="axil-btn btn-fill-white btn-large">View in GitBook</Link>
+                    <img src={process.env.PUBLIC_URL + "/images/tokenomics/tokenomics-61.png"} alt="tokenomics" />                            
+                    <a target={'_blank'} href={"https://doc.ctimelines.io/es-cardano-timelines/infografias/cardano-timeline-2022"} className="axil-btn btn-fill-white btn-large">View in GitBook</a>
                 </div>          
             </div>
             <ul className="list-unstyled shape-group-18">

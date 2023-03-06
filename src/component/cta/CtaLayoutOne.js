@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
 
 const CtaLayoutOne = () => {
 
@@ -12,18 +10,15 @@ const CtaLayoutOne = () => {
                     <div className="section-heading heading-light">
                         {/* <span className="subtitle">Contact Us</span> */}
                         <h2 className="title">Join Us</h2>
-                        <Link to={process.env.PUBLIC_URL + "/contact"} className="icon">
-                            <img src=""></img>
-                        </Link>
                     </div>
                     <div className="footer-top">
                         <div className="footer-social-link">
                             <ul className="list-unstyled">
-                                <li><a target={'_blank'} href="https://twitter.com/CTimelines_io"><img src={process.env.PUBLIC_URL + "/images/icon/twitter-dark.svg"}/></a></li>
-                                <li><a target={'_blank'} href="https://t.me/ctimelines"><img src={process.env.PUBLIC_URL + "/images/icon/telegram-dark.svg"}/></a></li>
-                                <li><a target={'_blank'} href="https://www.youtube.com/channel/UCp4RuX6EgQQ8MsVVM0PLJDw"><img src={process.env.PUBLIC_URL + "/images/icon/youtube-dark.svg"}/></a></li>
-                                <li><a target={'_blank'} href="https://doc.ctimelines.io/"><img src={process.env.PUBLIC_URL + "/images/icon/gitbook-dark.svg"}/></a></li>
-                                <li><a target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022"><img src={process.env.PUBLIC_URL + "/images/icon/jpgstore-dark.svg"}/></a></li>
+                                <li><a target={'_blank'} href="https://twitter.com/CTimelines_io"><img src={process.env.PUBLIC_URL + "/images/icon/twitter-dark.svg"} alt="twitter"/></a></li>
+                                <li><a target={'_blank'} href="https://t.me/ctimelines"><img src={process.env.PUBLIC_URL + "/images/icon/telegram-dark.svg"} alt="telegram"/></a></li>
+                                <li><a target={'_blank'} href="https://www.youtube.com/channel/UCp4RuX6EgQQ8MsVVM0PLJDw"><img src={process.env.PUBLIC_URL + "/images/icon/youtube-dark.svg"} alt="youtube"/></a></li>
+                                <li><a target={'_blank'} href="https://doc.ctimelines.io/"><img src={process.env.PUBLIC_URL + "/images/icon/gitbook-dark.svg"} alt="gitbook"/></a></li>
+                                <li><a target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022"><img src={process.env.PUBLIC_URL + "/images/icon/jpgstore-dark.svg"} alt="jpg-store"/></a></li>
                             </ul>
                         </div>
                     </div>

@@ -19,7 +19,7 @@ const CardanoTimelineEras = () => {
                             <div className="nfts-eras">
                                 <ul>
                                 {allData.filter(data => data.id >= 1).map((data) => (
-                                    <li><Link to={process.env.PUBLIC_URL + `/nft-details/${slugify(data.title2)}`}><img src={process.env.PUBLIC_URL + data.thumb.lg}></img></Link></li>                  
+                                    <li><Link to={process.env.PUBLIC_URL + `/nft-details/${slugify(data.title2)}`}><img src={process.env.PUBLIC_URL + data.thumb.sm} alt="ctimelines"/></Link></li>                  
                                 ))}
                                 </ul>
                             </div>
@@ -29,7 +29,7 @@ const CardanoTimelineEras = () => {
                     </div>
                     <div className="col-lg-6 offset-xl-1">
                         <div className="nft-full">
-                            <a href={process.env.PUBLIC_URL + "/nft-details/cardano-timeline-2022"}><img src={process.env.PUBLIC_URL + "/images/nft/cover_0A_600px.gif"}></img></a>
+                            <a href={process.env.PUBLIC_URL + "/nft-details/cardano-timeline-2022"}><img src={process.env.PUBLIC_URL + "/images/nft/cover_0A_600px.gif"} alt="ctimelines"/></a>
                         </div>
                     </div>
                 </div>

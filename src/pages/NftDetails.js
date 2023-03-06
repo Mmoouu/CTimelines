@@ -26,18 +26,6 @@ const NftDetails = () => {
 
     const getNftData = allData.filter(data => slugify(data.title2) === nftSlug);
     const detailsNft = getNftData[0];
-
-    // const [lightboxController, setLightboxController] = useState({
-	// 	toggler: false,
-	// 	slide: 1
-	// }); 
-
-    // function openLightboxOnSlide(number) {
-	// 	setLightboxController({
-	// 		toggler: !lightboxController.toggler,
-	// 		slide: number
-	// 	});
-	// } 
     
     const [ state, setState ] = useState({
         photoSelect: 0,
@@ -58,16 +46,6 @@ const NftDetails = () => {
                 />
                 <div className="section-padding-equal">
                     <div className="container">
-
-                        {/* <FsLightbox
-                            toggler={lightboxController.toggler}
-                            sources={[
-                                detailsNft.thumb,
-                                detailsNft.file1
-                            ]}
-                            slide={lightboxController.slide}
-                            type='image'                      
-                        /> */}
 
                         <div className="row align-items-center">
                             <div className="col-lg-6">

@@ -86,9 +86,9 @@ const RoadMap = () => {
 								{/* <!-- end item --> */}
 
 								{/* <!-- start item --> */}
-								<div className="__item">
+								<div className="__item __item--active">
 									<i className="__point"></i>
-									<span className="__line"></span>
+									<span className="__line __line--active"></span>
 
 									<span className="__text __text--first">February 2023</span>
 									<h5 className="__text __text--second">Cardano Timeline 2022 NFT Collection</h5>
@@ -100,15 +100,29 @@ const RoadMap = () => {
 								{/* <!-- end item --> */}
 
 								{/* <!-- start item --> */}
-								<div className="__item __item--current">
+								<div className="__item __item--active __item--current">
 									<i className="__point"></i>
-									<span className="__line"></span>
+									<span className="__line __line--active"></span>
 
 									<span className="__text __text--first">March 2023</span>
 									<h5 className="__text __text--second">Web Portal CTimelines.io</h5>
 
 									<p>
 										 
+									</p>
+								</div> 
+								{/* <!-- end item --> */}
+
+								{/* <!-- start item --> */}
+								<div className="__item __item--active __item--current">
+									<i className="__point"></i>
+									<span className="__line"></span>
+
+									{/* <span className="__text __text--first">March 2023</span> */}
+									<h5 className="__text __text--second">Collaboration | Bitcoin para Todos (Podcast)</h5>
+
+									<p>
+									Cardano Timeline: La historia de Cardano	 
 									</p>
 								</div>
 								{/* <!-- end item --> */}
@@ -125,21 +139,7 @@ const RoadMap = () => {
 									CTimelines article	 
 									</p>
 								</div>
-								{/* <!-- end item --> */}
-
-								{/* <!-- start item --> */}
-								<div className="__item __item--current">
-									<i className="__point"></i>
-									<span className="__line"></span>
-
-									{/* <span className="__text __text--first">March 2023</span> */}
-									<h5 className="__text __text--second">Collaboration | Bitcoin para Todos (Podcast)</h5>
-
-									<p>
-									Cardano Timeline: La historia de Cardano	 
-									</p>
-								</div>
-								{/* <!-- end item --> */}
+								{/* <!-- end item --> */}								
 
 								{/* <!-- start item --> */}
 								<div className="__item __item--current">

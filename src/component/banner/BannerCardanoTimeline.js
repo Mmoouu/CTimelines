@@ -1,9 +1,9 @@
-import React, { useEffect} from 'react';
+import React, { useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import Tilty from 'react-tilty';
 import { FaAngleDown } from "react-icons/fa";
-import { slugify } from '../../utils';
+import Lightbox from 'react-image-lightbox';
+import 'react-image-lightbox/style.css';
 
 
 const BannerCardanoTimeline = () => {
@@ -12,11 +12,22 @@ const BannerCardanoTimeline = () => {
         window.scrollTo(0, 2000);
     });
 
+    const [ state, setState ] = useState({
+        photoSelect: 0,
+        isOpen: false,
+    });
+
     return (
         <div className="banner banner-style-1">
+            {state.isOpen && (
+            <Lightbox
+                mainSrc={process.env.PUBLIC_URL + state.photoSelect }                                
+                onCloseRequest={() => setState({ photoSelect: 0, isOpen: false })}                                
+            />
+            )}
             <div className="container">
                 {/* <div className="row align-items-center"> */}
-                <div className="row align-items-end align-items-xl-start">
+                <div className="row align-items-end align-items-xl-start"> 
                     <div className="col-lg-6">
                         <div className="banner-content">
                             <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={100}>
@@ -26,10 +37,10 @@ const BannerCardanoTimeline = () => {
                                 <h1 className="title">Cardano<br></br>Timeline 2022</h1>
                             </AnimationOnScroll>
                             <AnimationOnScroll  animateIn="slideInUp" duration={1} animateOnce={true} delay={200}>
-                            <div className="btn-group">
-                                <Link className="axil-btn btn-fill-primary btn-large" to={process.env.PUBLIC_URL + `/nft-timeline-details/cardano-timeline-2022-nft`}>
+                            <div className="btn-group">                                
+                                <a className="axil-btn btn-fill-primary btn-large" onClick={() => setState({ photoSelect: 'images/nft/cover_0B.png', isOpen: true, })}>
                                     View Infographic   
-                                </Link>
+                                </a>
                                 <ul className="mainmenu">
                                     <li className="menu-item-has-children button_mint_banner">
                                         <Link to="#">Mint<FaAngleDown /></Link>
