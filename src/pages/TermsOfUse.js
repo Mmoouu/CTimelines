@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import FooterOne from '../common/footer/FooterOne';
 import HeaderOne from '../common/header/HeaderOne';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import SEO from '../common/SEO';
+import ReactGA from 'react-ga';
 
 
 const TermsOfUse = () => {
+
+    useEffect(() => {
+        ReactGA.pageview('/terms-of-use');
+    }, []);
 
     return (
         <>

@@ -1,12 +1,12 @@
 import React from 'react';
-import { FaLightbulb, FaMoon } from 'react-icons/fa';
+// import { FaLightbulb, FaMoon } from 'react-icons/fa';
 
 
 const ColorSwitcher = () => {
 
-    const switchColor = () => {
-        document.querySelector('body').classList.toggle("active-dark-mode");
-    }
+    // const switchColor = () => {
+    //     document.querySelector('body').classList.toggle("active-dark-mode");
+    // }
 
     return (
         <div>

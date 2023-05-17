@@ -1,7 +1,5 @@
 import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import { Link } from 'react-router-dom';
-
 
 const TocenomicsThree = () => {
     return (

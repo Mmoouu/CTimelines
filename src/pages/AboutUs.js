@@ -5,9 +5,7 @@ import SEO from '../common/SEO';
 import BcrumbBannerOne from '../elements/breadcrumb/BcrumbBannerOne';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
-import AboutThree from '../component/about/AboutThree';
 import AboutFour from '../component/about/AboutFour';
-import AboutFive from '../component/about/AboutFive';
 import TeamOne from '../component/team/TeamOne';
 import ReactGA from 'react-ga';
 
@@ -32,8 +30,6 @@ const AboutUs = () => {
                 />
                 <AboutFour />
                 <TeamOne />
-                {/* <AboutFive /> */}
-                {/* <ProcessOne /> */}
                 <CtaLayoutOne />
                 <FooterSimple />
             </main>

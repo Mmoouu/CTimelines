@@ -1,6 +1,5 @@
 import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import { Link } from 'react-router-dom';
 
 
 const TocenomicsTwo = () => {
@@ -9,7 +8,7 @@ const TocenomicsTwo = () => {
             <div className="container-fluid">
                 <div className="banner-content">
                     <h1 className="title">Sale Phases</h1>
-                    <img src={process.env.PUBLIC_URL + "/images/tokenomics/tokenomics-71.png"} />                            
+                    <img alt={'tokenomics-71'} src={process.env.PUBLIC_URL + "/images/tokenomics/tokenomics-71.png"} />                            
                     {/* <Link to={process.env.PUBLIC_URL + "/project-grid-one"} className="axil-btn btn-fill-white btn-large">View in GitBook</Link> */}
                 </div>          
             </div>

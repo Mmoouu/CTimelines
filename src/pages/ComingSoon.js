@@ -3,48 +3,14 @@ import SEO from '../common/SEO';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import { Link } from 'react-router-dom';
 import HeaderOne from '../common/header/HeaderOne';
-import { FaEnvelopeOpen } from "react-icons/fa";
-import Countdown from 'react-countdown';
 import ReactGA from 'react-ga';
 
 
 const ComingSoon = () => {
 
     useEffect(() => {
-        ReactGA.pageview('/timeline-research');
+        ReactGA.pageview('/coming-soon');
     }, []);
-
-    const Completionist = () => <span>Our Site is Ready to Go!</span>;
-
-    const SetCountdownTime = "2023-01-10T17:00:00";
-
-    const CountDownRender = ({ days, hours, minutes, seconds, completed }) => {
-        if (completed) {
-          return <Completionist />; 
-        } else {
-          return (
-              <div className="countdown">
-                  <div className="countdown-section">
-                    <span className="countdown-number">{days}</span>
-                    <span className="countdown-unit">Days</span>
-                  </div>
-                  <div className="countdown-section">
-                    <span className="countdown-number">{hours}</span>
-                    <span className="countdown-unit">Hours</span>
-                  </div>
-                  <div className="countdown-section">
-                    <span className="countdown-number">{minutes}</span>
-                    <span className="countdown-unit">Hours</span>
-                  </div>
-                  <div className="countdown-section">
-                    <span className="countdown-number">{seconds}</span>
-                    <span className="countdown-unit">Hours</span>
-                  </div>
-              </div>
-          )
-        }
-      }
-
 
     return (
         <>

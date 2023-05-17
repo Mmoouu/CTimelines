@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import HeaderOne from '../common/header/HeaderOne';
 import SEO from '../common/SEO';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import ReactGA from 'react-ga';
 
 const ErrorPage = () => {
+
+    useEffect(() => {
+        ReactGA.pageview('/404');
+    }, []);
 
     return (
         <>

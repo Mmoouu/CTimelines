@@ -11,7 +11,7 @@ const BreadCrumbOne = ({title, page}) => {
                     <ul className="list-unstyled">
                         <li>
                             <Link
-                            to={process.env.PUBLIC_URL + "/cardano-timeline-2022"} replace >Cardano Timelines 2022
+                            to={process.env.PUBLIC_URL + "/cardano-timeline-2022"} replace >Cardano Timeline 2022
                             </Link>
                         </li>
                         <li className="active" dangerouslySetInnerHTML={{__html: page}}></li>

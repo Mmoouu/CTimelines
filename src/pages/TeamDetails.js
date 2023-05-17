@@ -5,10 +5,8 @@ import HeaderOne from '../common/header/HeaderOne';
 import SEO from '../common/SEO';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
-import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import TeamData from "../data/team/TeamData.json";
 import { slugify } from '../utils';
-import { FaFacebookF, FaTwitter, FaPinterestP, FaLinkedinIn, FaInstagram, FaVimeoV, FaDribbble, FaBehance } from "react-icons/fa";
 import Tilty from 'react-tilty';
 import ReactGA from 'react-ga';
 
@@ -45,11 +43,11 @@ const TeamDetails = () => {
                             <h2 className="title">{detailsTeam.title}</h2>
                             <span className="subtitle" dangerouslySetInnerHTML={{__html: detailsTeam.designation}}></span>
                             <ul className="social-share list-unstyled"> 
-                                { detailsTeam.social.linkedin && <li><a target={'_blank'} href={detailsTeam.social.linkedin}><img src={process.env.PUBLIC_URL + '/images/icon/linkedin-light.svg'}></img></a></li> }
-                                { detailsTeam.social.twitter && <li><a target={'_blank'} href={detailsTeam.social.twitter}><img src={process.env.PUBLIC_URL + '/images/icon/twitter-light.svg'}></img></a></li> }
-                                { detailsTeam.social.instagram && <li><a target={'_blank'} href={detailsTeam.social.instagram}><img src={process.env.PUBLIC_URL + '/images/icon/instagram-light.svg'}></img></a></li> }
-                                { detailsTeam.social.telegram && <li><a target={'_blank'} href={detailsTeam.social.telegram}><img src={process.env.PUBLIC_URL + '/images/icon/telegram-light.svg'}></img></a></li> }
-                                { detailsTeam.social.behance && <li><a target={'_blank'} href={detailsTeam.social.behance}><img src={process.env.PUBLIC_URL + '/images/icon/behance-light.svg'}></img></a></li> }                             
+                                { detailsTeam.social.linkedin && <li><a target={'_blank'} href={detailsTeam.social.linkedin}><img alt={'linkedin'} src={process.env.PUBLIC_URL + '/images/icon/linkedin-light.svg'}></img></a></li> }
+                                { detailsTeam.social.twitter && <li><a target={'_blank'} href={detailsTeam.social.twitter}><img alt={'twitter'} src={process.env.PUBLIC_URL + '/images/icon/twitter-light.svg'}></img></a></li> }
+                                { detailsTeam.social.instagram && <li><a target={'_blank'} href={detailsTeam.social.instagram}><img alt={'instagram'} src={process.env.PUBLIC_URL + '/images/icon/instagram-light.svg'}></img></a></li> }
+                                { detailsTeam.social.telegram && <li><a target={'_blank'} href={detailsTeam.social.telegram}><img alt={'telegram'} src={process.env.PUBLIC_URL + '/images/icon/telegram-light.svg'}></img></a></li> }
+                                { detailsTeam.social.behance && <li><a target={'_blank'} href={detailsTeam.social.behance}><img alt={'behance'} src={process.env.PUBLIC_URL + '/images/icon/behance-light.svg'}></img></a></li> }                             
                             </ul> 
                             <p dangerouslySetInnerHTML={{__html: detailsTeam.description }}></p>
                             </div>

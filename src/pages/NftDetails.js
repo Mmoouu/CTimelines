@@ -54,8 +54,8 @@ const NftDetails = () => {
                                 <h3 className="title">{detailsNft.title2}</h3>
                                 <span className="subtitle" dangerouslySetInnerHTML={{__html: detailsNft.designation}}></span>
                                 <ul className="social-share list-unstyled">
-                                    <li><a target={'_blank'} href={detailsNft.social.poolPm}><img src={process.env.PUBLIC_URL + '/images/icon/poolpm-light.svg'}></img></a></li>
-                                    <li><a target={'_blank'} href={detailsNft.social.jpgStore}><img src={process.env.PUBLIC_URL + '/images/icon/jpgstore-light.svg'}></img></a></li>
+                                    <li><a target={'_blank'} href={detailsNft.social.poolPm}><img alt={'poolpm'} src={process.env.PUBLIC_URL + '/images/icon/poolpm-light.svg'}></img></a></li>
+                                    <li><a target={'_blank'} href={detailsNft.social.jpgStore}><img alt={'jpgstore'} src={process.env.PUBLIC_URL + '/images/icon/jpgstore-light.svg'}></img></a></li>
                                 </ul>
                                 {state.isOpen && (
                                 <Lightbox

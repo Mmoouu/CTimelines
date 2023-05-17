@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import ScrollToTop from './component/scrollToTop/ScrollToTop';
-import ReactGA from 'react-ga';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Home Page Import
@@ -23,10 +22,6 @@ import './assets/scss/app.scss';
 
 const App = () => {
 	document.querySelector('body').classList.add("active-light-mode");
-
-	useEffect(() => {
-        ReactGA.initialize('G-73V487QLCY');
-    }, []);
 	
   return (
     <Router>

@@ -15,7 +15,7 @@ const CardanoTimelineEras = () => {
                         <div className="heading-left">
                             <span className="subtitle">NFT Collection</span>
                             <h2 className="title">Cardano Timeline 2022</h2>
-                            <p className="mb--50">The history of our ecosystem has been fragmented.<br></br>Put the 6 NFT era pieces together and became a Guardian of Cardano´s history.</p>
+                            <p className="mb--50">The history of our ecosystem has been fragmented.<br></br>Put the 6 NFT era pieces together and become a Guardian of Cardano´s history.</p>
                             <div className="nfts-eras">
                                 <ul>
                                 {allData.filter(data => data.id >= 1).map((data) => (

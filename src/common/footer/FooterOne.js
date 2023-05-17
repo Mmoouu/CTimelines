@@ -1,10 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebookF, FaTwitter, FaPinterestP, FaLinkedin, FaInstagram, FaVimeoV, FaDribbble, FaBehance, FaEnvelopeOpen } from "react-icons/fa";
-import ServiceData from "../../data/service/ServiceMain.json";
-import { slugify } from '../../utils';
-
-const getServiceData = ServiceData;
+import { FaEnvelopeOpen } from "react-icons/fa";
 
 const FooterOne = ({parentClass}) => {
     

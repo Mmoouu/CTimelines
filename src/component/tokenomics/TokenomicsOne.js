@@ -1,7 +1,5 @@
 import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import { Link } from 'react-router-dom';
-
 
 const TocenomicsOne = () => {
     return (
@@ -9,7 +7,7 @@ const TocenomicsOne = () => {
             <div className="container-fluid">
                 <div className="banner-content">
                     <h1 className="title">NFT Collection Units</h1>
-                    <img src={process.env.PUBLIC_URL + "/images/tokenomics/tokenomics-70.png"} />                            
+                    <img alt={'tokenomics70'} src={process.env.PUBLIC_URL + "/images/tokenomics/tokenomics-70.png"} />                            
                     {/* <Link to={process.env.PUBLIC_URL + "/project-grid-one"} className="axil-btn btn-fill-white btn-large">View in GitBook</Link> */}
                 </div>          
             </div>

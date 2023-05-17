@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Logo from '../../elements/logo/Logo';
 import Nav from '../../common/header/Nav';
 import OffcanvasMenu from './OffcanvasMenu';
 import StickyHeader from './StickyHeader';
 import SwitcherHeader from '../../elements/switcher/SwitcherHeader';
 import MobileMenu from './MobileMenu';
+import ReactGA from 'react-ga';
 
 
 const HeaderOne = () => {
@@ -31,6 +32,11 @@ const HeaderOne = () => {
             }
         }
     }
+
+    useEffect(() => {
+        ReactGA.initialize('G-73V487QLCY');
+		// ReactGA.pageview(window.location.pathname + window.location.search);
+    }, []);
 
 
     return (
