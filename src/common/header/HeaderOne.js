@@ -34,8 +34,7 @@ const HeaderOne = () => {
     }
 
     useEffect(() => {
-        ReactGA.initialize('G-73V487QLCY');
-		// ReactGA.pageview(window.location.pathname + window.location.search);
+        ReactGA.initialize('UA-252386223-1');
     }, []);
 
 

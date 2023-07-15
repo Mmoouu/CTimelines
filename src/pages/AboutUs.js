@@ -5,7 +5,7 @@ import SEO from '../common/SEO';
 import BcrumbBannerOne from '../elements/breadcrumb/BcrumbBannerOne';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
-import AboutFour from '../component/about/AboutFour';
+import AboutText from '../component/about/AboutText';
 import TeamOne from '../component/team/TeamOne';
 import ReactGA from 'react-ga';
 
@@ -28,7 +28,7 @@ const AboutUs = () => {
                 styleClass="thumbnail-4"
                 mainThumb="/images/banner/banner-thumb-3.png"
                 />
-                <AboutFour />
+                <AboutText />
                 <TeamOne />
                 <CtaLayoutOne />
                 <FooterSimple />

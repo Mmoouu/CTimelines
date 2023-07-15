@@ -15,9 +15,9 @@ const ColecctionTimelineEras = () => {
                     <a target={'_blank'} href="https://cardanoscan.io/tokenPolicy/981f0f1026cfa151e4f07b46ff5763a9a1e881094764b21dcd15c5f9">Policy ID: 981f0f1026cfa151e4f07b46ff5763a9a1e881094764b21dcd15c5f9</a>
                     <br></br><br></br>
                     <p>Collect in your wallet the 6 NFTs fragments that represent each Era of Cardano.
-                    For those who meet this condition when the snapshot is taken (date TBD),
+                    For those who meet this condition when the snapshot is taken,
                     will be rewarded with a Cardano Timeline 2022 NFT.
-                    Delivery will be made vía airdrop (date TBD).
+                    Delivery will be made vía airdrop.
                     </p>
                 </div>
                 <div className="row">

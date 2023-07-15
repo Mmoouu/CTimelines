@@ -24,7 +24,7 @@ const RoadMap = () => {
 									July 2022
 									</span>									
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://www.behance.net/">
+									<a target='_blank' rel="noopener noreferrer" href="https://visualcardano.com/">
 									Visual Cardano Contest (1st place)
 									</a>
 									</h5>
@@ -45,7 +45,7 @@ const RoadMap = () => {
 									August 2022
 									</span>
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://www.youtube.com/watch?v=-tH5TlZIwt4&ab_channel=IndividuoDigital">
+									<a target='_blank' rel="noopener noreferrer" href="https://www.youtube.com/watch?v=-tH5TlZIwt4&ab_channel=IndividuoDigital">
 									Collaboration | Individuo Digital (Youtube Channel)
 									</a>
 									</h5>
@@ -63,7 +63,7 @@ const RoadMap = () => {
 
 									{/* <span className="__text __text--first">August 2022</span> */}
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://www.youtube.com/watch?v=8QYH9GkoGJI&ab_channel=LatinStakePools">
+									<a target='_blank' rel="noopener noreferrer" href="https://www.youtube.com/watch?v=8QYH9GkoGJI&ab_channel=LatinStakePools">
 									Collaboration | Latin Stake Pools (Youtube Channel)
 									</a>
 									</h5>
@@ -83,7 +83,7 @@ const RoadMap = () => {
 									September 2022
 									</span>
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://doc.ctimelines.io/es-cardano-timelines/eventos/cardano-plutus-hackathon-bsas-argentina-2022/stand-cardano-timeline">
+									<a target='_blank' rel="noopener noreferrer" href="https://doc.ctimelines.io/es-cardano-timelines/eventos/cardano-plutus-hackathon-bsas-argentina-2022/stand-cardano-timeline">
 									Cardano Plutus Hackathon (event)
 									</a>
 									</h5>
@@ -103,7 +103,7 @@ const RoadMap = () => {
 									November 2022
 									</span>
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://doc.ctimelines.io/es-cardano-timelines/eventos/cardano-summit-2022-bsas-argentina">
+									<a target='_blank' rel="noopener noreferrer" href="https://doc.ctimelines.io/es-cardano-timelines/eventos/cardano-summit-2022-bsas-argentina">
 									Cardano Summit 2022 BsAs Argentina (event)
 									</a>
 									</h5>
@@ -124,7 +124,7 @@ const RoadMap = () => {
 									February 2023
 									</span>
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://ctimelines.io/cardano-timeline-2022">
+									<a target='_blank' rel="noopener noreferrer" href="https://ctimelines.io/cardano-timeline-2022">
 									Cardano Timeline 2022 NFT Collection
 									</a>
 									</h5>
@@ -144,7 +144,7 @@ const RoadMap = () => {
 									March 2023
 									</span>
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://ctimelines.io/cardano-timeline-2022">
+									<a target='_blank' rel="noopener noreferrer" href="https://ctimelines.io/cardano-timeline-2022">
 									Web Portal CTimelines.io
 									</a>
 									</h5>
@@ -162,7 +162,7 @@ const RoadMap = () => {
 
 									{/* <span className="__text __text--first">March 2023</span> */}
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://www.youtube.com/watch?v=j55tt3oaOAI&ab_channel=Bitcoinparatodos">
+									<a target='_blank' rel="noopener noreferrer" href="https://www.youtube.com/watch?v=j55tt3oaOAI&ab_channel=Bitcoinparatodos">
 									Collaboration | Bitcoin para Todos (Podcast)
 									</a>
 									</h5>
@@ -180,13 +180,13 @@ const RoadMap = () => {
 
 									{/* <span className="__text __text--first">March 2023</span> */}
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://issuu.com/carnadarevista/docs/carnada_1_-_ctimelines">
+									<a target='_blank' rel="noopener noreferrer" href="https://issuu.com/carnadarevista/docs/carnada_1_-_ctimelines">
 									Collaboration | Carnada (Digital Magazine)
 									</a>
 									</h5>
 
 									<p>
-									CTimelines (Cardana #1) article	 
+									CTimelines (Carnada #1) article	 
 									</p>
 								</div>
 								{/* <!-- end item --> */}								
@@ -198,7 +198,7 @@ const RoadMap = () => {
 
 									{/* <span className="__text __text--first">March 2023</span> */}
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://www.youtube.com/watch?v=u0Jh8xcdH4g&ab_channel=IndividuoDigital">
+									<a target='_blank' rel="noopener noreferrer" href="https://www.youtube.com/watch?v=u0Jh8xcdH4g&ab_channel=IndividuoDigital">
 									Collaboration | Individuo Digital (Youtube Channel)
 									</a>
 									</h5>
@@ -218,7 +218,7 @@ const RoadMap = () => {
 									April 2023
 									</span>
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://cardanospot.io/news/cardano-timeline-2022">
+									<a target='_blank' rel="noopener noreferrer" href="https://cardanospot.io/news/cardano-timeline-2022">
 									Cardano Spot Content Competition (4th place)
 									</a>
 									</h5>
@@ -232,36 +232,71 @@ const RoadMap = () => {
 								{/* <!-- start item --> */}
 								<div className="__item __item--active __item--current">
 									<i className="__point"></i>
+									<span className="__line __line--active"></span>
+
+									<span className="__text __text--first">
+									July 2023
+									</span>
+									<h5 className="__text __text--second">
+									<a target='_blank' rel="noopener noreferrer" href="https://cardano.ideascale.com/c/idea/102971">
+									Project Catalyst Fund10
+									</a>
+									</h5>
+
+									<p>
+									Proposal Submission	 
+									</p>
+								</div> 
+								{/* <!-- end item --> */}
+
+								{/* <!-- start item --> */}
+								<div className="__item __item--active __item--current">
+									<i className="__point"></i>
+									<span className="__line __line--active"></span>
+
+									<span className="__text __text--first">
+									November 2023
+									</span>
+									<h5 className="__text __text--second">
+									Global Presence at Cardano Summit 2023
+									</h5>
+
+									<p>
+									+ 10 Cities worldwide
+									</p>
+								</div> 
+								{/* <!-- end item --> */}
+
+								{/* <!-- start item --> */}
+								<div className="__item ">
+									<i className="__point"></i>
 									<span className="__line"></span>
 
 									<span className="__text __text--first">
-									TBD (to be defined)
+									TBD (to de defined)
 									</span>
+
 									<h5 className="__text __text--second">
-									<a target='_blank' href="">
-									Project Catalyst Fund 10
-									</a>
+									Cardano Timeline 2023								
 									</h5>
-									
+
 									<p>
-									Proposal submission	 
 									</p>
 								</div>
 								{/* <!-- end item --> */}
 
 								{/* <!-- start item --> */}
-								<div className="__item __item--current">
+								<div className="__item ">
 									<i className="__point"></i>
-									<span className="__line"></span>
+									<span className="__line "></span>
+
+									
 
 									<h5 className="__text __text--second">
-									<a target='_blank' href="https://www.youtube.com/watch?v=u0Jh8xcdH4g&ab_channel=IndividuoDigital">
-									Research Timeline 2022 NFT Collection
-									</a>
+									Research Timeline 2023								
 									</h5>
 
 									<p>
-
 									</p>
 								</div>
 								{/* <!-- end item --> */}

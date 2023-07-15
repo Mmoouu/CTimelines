@@ -10,6 +10,7 @@ import TokenomicsOne from '../component/tokenomics/TokenomicsOne';
 import TokenomicsTwo from '../component/tokenomics/TokenomicsTwo';
 import TokenomicsThree from '../component/tokenomics/TokenomicsThree';
 import BannerCardanoTimeline from '../component/banner/BannerCardanoTimeline';
+import RoadMapCTimelines2023 from '../component/roadmap/RoadMapTimelines';
 import ReactGA from 'react-ga';
 
 const CardanoTimeline2022 = () => {
@@ -30,7 +31,8 @@ const CardanoTimeline2022 = () => {
             <CardanoTimeline />
             <TokenomicsOne/>
             <TokenomicsTwo/>
-            <TokenomicsThree/>                
+            <TokenomicsThree/> 
+            <RoadMapCTimelines2023/>                
 
             <div className="section section-padding" id="section1">
                 <div className="container">

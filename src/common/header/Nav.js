@@ -40,7 +40,7 @@ const Nav = () => {
                     <Link to="#">NFT Collections<FaAngleDown /></Link>
                     <ul className="axil-submenu">
                         <li><NavLink to={process.env.PUBLIC_URL + "/cardano-timeline-2022"}>Cardano Timeline 2022</NavLink></li>
-                        <li><NavLink to={process.env.PUBLIC_URL + "/coming-soon"}>Research Timeline 2022</NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/coming-soon"}>Research Timeline 2023</NavLink></li>
                     </ul>
                 </li>
                 <li><NavLink to={process.env.PUBLIC_URL + "/about-us"}>About Us</NavLink></li>

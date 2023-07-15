@@ -23,7 +23,7 @@ const ComingSoon = () => {
                         <div className="row align-items-center justify-content-center">
                         <div className="col-xl-6 col-lg-8">
                             <div className="content">
-                            <h2 className="title">Cardano Research Timeline 2022</h2>
+                            <h2 className="title">Cardano Research Timeline 2023</h2>
                             <h4>Our new collection is on the way</h4><br></br>                           
                             <Link to={process.env.PUBLIC_URL + "/"} className="axil-btn btn-fill-primary btn-large">Go Back</Link>
                             </div>
