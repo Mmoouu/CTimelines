@@ -169,7 +169,7 @@ const RoadMapCTimelines2023 = () => {
 									<span className="__line __line--active"></span>
 
 									<span className="__text __text--first">
-									August 2, 2023
+									September 10, 2023
 									</span>
 
 									<h5 className="__text __text--second">

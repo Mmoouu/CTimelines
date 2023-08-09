@@ -48,6 +48,32 @@
             }
         }
     }
+    &.btn-fill-buy {
+        background-color: rgb(238, 238, 87);
+        color: #000;
+        border: 1px solid rgb(255, 255, 28);
+        overflow: hidden;
+        &::after {
+            content: "";
+            height: 300px;
+            width: 300px;
+            background-color: #ffd812;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%) scale(0);
+            transition: .5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+            z-index: -1;
+        }
+        &:hover {
+            background-color: #ffd812;
+            border-color: #e6c109;
+            &::after {
+                transform: translateY(-50%) translateX(-50%) scale(1);
+            }
+        }
+    }
     &.btn-fill-white {
         background-color: var(--color-white);
         box-shadow: 0px 48px 48px 0px rgba(#000000, 0.12);

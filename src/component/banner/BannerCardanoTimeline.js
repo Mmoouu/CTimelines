@@ -41,15 +41,9 @@ const BannerCardanoTimeline = () => {
                                 <a className="axil-btn btn-fill-primary btn-large" onClick={() => setState({ photoSelect: 'images/nft/cover_0B.png', isOpen: true, })}>
                                     View Infographic   
                                 </a>
-                                <ul className="mainmenu">
-                                    <li className="menu-item-has-children button_mint_banner">
-                                        <Link to="#">Mint<FaAngleDown /></Link>
-                                        <ul className="axil-submenu">
-                                            <li><a target={'_blank'} href="https://buy.tangocrypto.com?q=eyJjb2xsZWN0aW9uX2lkIjoiMDFncWpzdmIzdHo3bWVzNGY2djZlYWc3azciLCJwaGFzZV9pZCI6IjAxZ3RhZHJwOTZzYmg4Z2dhbWQ3MDJteG1lIiwicHJpY2VfaWQiOiIwMWd0YWRycDkzNDc1end6dmJmaDJ5djd4MiIsInR5cGUiOiJQaGFzZVNhbGUiLCJpc19yYW5kb20iOnRydWUsInRjYyI6InFYK3BnSVJtNEJuYlVUdlJxc3hrZWUveVVLOS9BMzFJbVRhaTE3UFFqNXVVTGdmYS9HeGc0T0lsQml4cmFxdlFKUVBHekhVVXZvQXRHT21NbTdGRGNuV1JQa0N3aGtGcmJ4VDQ2Slh5QnBFcDJlaEtsU3dpbGt2UUIxVFZBZz09In0">1xNFT 30 ADA</a></li>
-                                            <li><a target={'_blank'} href="https://buy.tangocrypto.com?q=eyJjb2xsZWN0aW9uX2lkIjoiMDFncWpzdmIzdHo3bWVzNGY2djZlYWc3azciLCJwaGFzZV9pZCI6IjAxZ3RhZHJwOTZzYmg4Z2dhbWQ3MDJteG1lIiwicHJpY2VfaWQiOiIwMWd0YWRycDkzODRjZDRidjZ2MzlwYjB4MiIsInR5cGUiOiJQaGFzZVNhbGUiLCJpc19yYW5kb20iOnRydWUsInRjYyI6InFYK3BnSVJtNEJuYlVUdlJxc3hrZWUveVVLOS9BMzFJbVRhaTE3UFFqNXVVTGdmYS9HeGc0T0lsQml4cmFxdlFKUVBHekhVVXZvQXRHT21NbTdGRGNuV1JQa0N3aGtGcmJ4VDQ2Slh5QnBFcDJlaEtsU3dpbGt2UUIxVFZBZz09In0">3xNFT 75 ADA</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <a className="axil-btn btn-fill-buy btn-large" target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022">
+                                    Buy on jpg.store   
+                                </a>
                             </div>
                             </AnimationOnScroll>
                         </div>

@@ -8,7 +8,7 @@ const AboutFour = () => {
                     <div className="col-xl-7 col-lg-6">
                         <div className="case-study-featured-thumb text-start">
                         <img src={process.env.PUBLIC_URL + "/images/others/jp-lars.png"} alt="JP-lars" />
-                        <p className='pie_de_foto'><span>"Photograph with Lars Brünjes (Education Director at IOG) the Cardano Plutus Hackathon 2022 in Buenos Aires, Argentina"</span></p>
+                        <p className='pie_de_foto'><span>"Photograph with Lars Brünjes (Education Director at IOG) at the Cardano Plutus Hackathon 2022 in Buenos Aires, Argentina"</span></p>
                         </div>
                     </div>
                     <div className="col-xl-5 col-lg-6">
@@ -24,7 +24,10 @@ const AboutFour = () => {
                     </div>
                 </div>
                 <div className="row">
-                <img src={process.env.PUBLIC_URL + "/images/others/cardano-summit.png"} alt="Cardano Summit" />   
+                    <img src={process.env.PUBLIC_URL + "/images/others/cardano-summit.png"} alt="Cardano Summit" /> 
+                    <div className="col-xl-12 col-lg-12"> 
+                        <p className='pie_de_foto'><span>"Cardano Summit 2022 in Buenos Aires, Argentina"</span></p> 
+                    </div>
                 </div>
             </div>
         </div>

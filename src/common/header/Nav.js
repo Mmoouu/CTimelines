@@ -45,13 +45,18 @@ const Nav = () => {
                 </li>
                 <li><NavLink to={process.env.PUBLIC_URL + "/about-us"}>About Us</NavLink></li>
                 <li><a target={'_blank'} href="https://doc.ctimelines.io/">Docs</a></li>
-                <li className="menu-item-has-children button_mint">
+                {/* <li><a target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022">Buy on <img alt={'jpgstore'} src={process.env.PUBLIC_URL + '/images/icon/jpgstore-light.svg'}></img></a></li> */}
+                <li className="menu-item-has-children button_buy">
+                    <a target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022">Buy on jpg.store </a>
+                    {/* <img alt={'jpgstore'} src={process.env.PUBLIC_URL + '/images/icon/jpgstore-light.svg'}></img> */}
+                </li>
+                {/* <li className="menu-item-has-children button_buy">on
                     <Link to="#">Mint<FaAngleDown /></Link>
                     <ul className="axil-submenu">
                         <li><a target={'_blank'} href="https://buy.tangocrypto.com?q=eyJjb2xsZWN0aW9uX2lkIjoiMDFncWpzdmIzdHo3bWVzNGY2djZlYWc3azciLCJwaGFzZV9pZCI6IjAxZ3RhZHJwOTZzYmg4Z2dhbWQ3MDJteG1lIiwicHJpY2VfaWQiOiIwMWd0YWRycDkzNDc1end6dmJmaDJ5djd4MiIsInR5cGUiOiJQaGFzZVNhbGUiLCJpc19yYW5kb20iOnRydWUsInRjYyI6InFYK3BnSVJtNEJuYlVUdlJxc3hrZWUveVVLOS9BMzFJbVRhaTE3UFFqNXVVTGdmYS9HeGc0T0lsQml4cmFxdlFKUVBHekhVVXZvQXRHT21NbTdGRGNuV1JQa0N3aGtGcmJ4VDQ2Slh5QnBFcDJlaEtsU3dpbGt2UUIxVFZBZz09In0">1xNFT 30 ADA</a></li>
                         <li><a target={'_blank'} href="https://buy.tangocrypto.com?q=eyJjb2xsZWN0aW9uX2lkIjoiMDFncWpzdmIzdHo3bWVzNGY2djZlYWc3azciLCJwaGFzZV9pZCI6IjAxZ3RhZHJwOTZzYmg4Z2dhbWQ3MDJteG1lIiwicHJpY2VfaWQiOiIwMWd0YWRycDkzODRjZDRidjZ2MzlwYjB4MiIsInR5cGUiOiJQaGFzZVNhbGUiLCJpc19yYW5kb20iOnRydWUsInRjYyI6InFYK3BnSVJtNEJuYlVUdlJxc3hrZWUveVVLOS9BMzFJbVRhaTE3UFFqNXVVTGdmYS9HeGc0T0lsQml4cmFxdlFKUVBHekhVVXZvQXRHT21NbTdGRGNuV1JQa0N3aGtGcmJ4VDQ2Slh5QnBFcDJlaEtsU3dpbGt2UUIxVFZBZz09In0">3xNFT 75 ADA</a></li>
                     </ul>
-                </li>
+                </li> */}
                                 
             </ul>
         </nav>
