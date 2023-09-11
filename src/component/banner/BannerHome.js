@@ -17,7 +17,9 @@ const BannerHome = () => {
                             <AnimationOnScroll animateIn="fadeInUp" animateOnce={true} delay={100}>
                                 <h1 className="title">Cardano's History deserves to be preserved</h1>
                                 <span className="subtitle">Our mission is to disseminate, through NFT collection type infographics, the historical development of our vast ecosystem.</span>
+                                <a href="https://cardano.ideascale.com/c/idea/102971" className="axil-btn btn-fill-promo btn-large">Vote Proposal F10</a>
                                 <Link to={process.env.PUBLIC_URL + "/cardano-timeline-2022"} className="axil-btn btn-fill-primary btn-large">Cardano Timeline 2022</Link>
+                                
                             </AnimationOnScroll>
                         </div>
                     </div>

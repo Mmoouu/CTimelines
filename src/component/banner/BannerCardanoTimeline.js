@@ -42,7 +42,7 @@ const BannerCardanoTimeline = () => {
                                     View Infographic   
                                 </a>
                                 <a className="axil-btn btn-fill-buy btn-large" target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022">
-                                    Buy on jpg.store   
+                                    Get on jpg.store   
                                 </a>
                             </div>
                             </AnimationOnScroll>

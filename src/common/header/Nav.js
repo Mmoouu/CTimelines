@@ -47,7 +47,7 @@ const Nav = () => {
                 <li><a target={'_blank'} href="https://doc.ctimelines.io/">Docs</a></li>
                 {/* <li><a target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022">Buy on <img alt={'jpgstore'} src={process.env.PUBLIC_URL + '/images/icon/jpgstore-light.svg'}></img></a></li> */}
                 <li className="menu-item-has-children button_buy">
-                    <a target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022">Buy on jpg.store </a>
+                    <a target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022">Get on jpg.store </a>
                     {/* <img alt={'jpgstore'} src={process.env.PUBLIC_URL + '/images/icon/jpgstore-light.svg'}></img> */}
                 </li>
                 {/* <li className="menu-item-has-children button_buy">on

@@ -890,24 +890,23 @@
 .mainmenu{
     li.button_buy {
         margin: 0;
-        background: rgb(238, 238, 87);
+        background: #FFD80C;
         padding: 0 24px;
         cursor:pointer;
         border-radius: 30px;
         transition: all 3s;
         &:hover {
-            background: var(--color-light);
+            background: #fff2b0;
+            text-decoration: none;
+        }
+        &img {            
+            height: 40px;
+            float: left;
+            padding: 0;
+            margin-top: 10px;
         }    
     }
-    li.button_buy img{
-        height: 40px;
-        float: left;
-        padding: 0;
-        margin-top: 10px;
-    }
-    li.button_buy a{
-        float: left;
-    }
+    
     li.button_mint {
         margin: 0;
         background: var(--color-light);
@@ -941,6 +940,7 @@
             padding-left: 10px;
             padding-right: 10px;
             font-size: 18px;
+            float: left;
             @media #{$md-layout} {
                 margin-left: 0px;
                 margin-right: 0px !important;
