@@ -109,6 +109,12 @@
 .nft-timeline-grid {
     text-align: center;
     margin-bottom: 80px;
+    .cursor-pointer{
+        cursor: pointer;
+    }
+    .border-radius{
+        border-radius: 10px;
+    }
     .thumbnail {
         margin-bottom: 30px;
         display: inline-block;                     

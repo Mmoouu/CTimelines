@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import FooterOne from '../common/footer/FooterOne';
-import HeaderOne from '../common/header/HeaderOne';
+import HeaderPos from '../common/header/HeaderPos';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
             <SEO title="Privacy Policy" />
             <ColorSwitcher />
             <main className="main-wrapper">
-                <HeaderOne />
+                <HeaderPos />
                 <BreadCrumbOne 
                 title="Privacy Policy"
                 page="Privacy Policy"

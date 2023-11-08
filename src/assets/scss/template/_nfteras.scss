@@ -28,7 +28,6 @@
         }
     }
 }
-
 .nft-full {
     width: 100%;
     max-width: 600px;
@@ -37,4 +36,11 @@
     height: auto;
     border-radius: 25px;
     overflow: hidden;
+}
+.nft-full-center {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    border-radius: 25px;
 }

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import FooterSimple from '../common/footer/FooterSimple';
-import HeaderOne from '../common/header/HeaderOne';
+import HeaderPos from '../common/header/HeaderPos';
 import SEO from '../common/SEO';
 import BcrumbBannerOne from '../elements/breadcrumb/BcrumbBannerOne';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
@@ -21,7 +21,7 @@ const AboutUs = () => {
         <SEO title="About Us" />
         <ColorSwitcher />
             <main className="main-wrapper">
-                <HeaderOne />
+                <HeaderPos />
                 <BcrumbBannerOne 
                 title="Preserving the</br> history of the<br>Cardano ecosystem"
                 paragraph ="We design and develop thematic infographics of the Cardano's history."

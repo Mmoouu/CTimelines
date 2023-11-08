@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const RoadMap = () => {
     return ( 
@@ -244,7 +245,9 @@ const RoadMap = () => {
 									</h5>
 
 									<p>
-									Proposal Submission	 
+									CTimelines Infographics<br></br>
+									Documenting & Promoting Cardano's History<br></br>
+									Proposal Submission	(NOT funded)
 									</p>
 								</div> 
 								{/* <!-- end item --> */}
@@ -262,53 +265,44 @@ const RoadMap = () => {
 									</h5>
 
 									<p>
-									+ 10 Cities worldwide
+									+ 5 Cities worldwide
 									</p>
 								</div> 
 								{/* <!-- end item --> */}
 
 								{/* <!-- start item --> */}
-								<div className="__item ">
+								<div className="__item __item--active __item--current">
+									<i className="__point"></i>
+									<span className="__line __line--active"></span>
+
+									
+
+									<h5 className="__text __text--second">									
+									<Link to={process.env.PUBLIC_URL + "/cardano-timeline-2023"}>Cardano Timeline 2023</Link>								
+									</h5>
+
+									<p>
+									</p>
+								</div>
+								{/* <!-- end item --> */}
+
+								{/* <!-- start item --> */}
+								<div className="__item __item--active __item--current">
 									<i className="__point"></i>
 									<span className="__line"></span>
 
 									<span className="__text __text--first">
 									TBD (to de defined)
-									</span>
+									</span>									
 
 									<h5 className="__text __text--second">
-									Cardano Timeline 2023								
+									<Link to={process.env.PUBLIC_URL + "/coming-soon"}>Research Timeline 2023</Link>	
 									</h5>
 
 									<p>
 									</p>
 								</div>
-								{/* <!-- end item --> */}
-
-								{/* <!-- start item --> */}
-								<div className="__item ">
-									<i className="__point"></i>
-									<span className="__line "></span>
-
-									
-
-									<h5 className="__text __text--second">
-									Research Timeline 2023								
-									</h5>
-
-									<p>
-									</p>
-								</div>
-								{/* <!-- end item --> */}
-
-								{/* <!-- start item --> */}
-								<div className="__item">
-									
-									<span className="__line"></span>
-
-									
-								</div>
-								{/* <!-- end item --> */}
+								{/* <!-- end item --> */}								
 								
 						</div>
 					</div>

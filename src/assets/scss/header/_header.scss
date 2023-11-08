@@ -776,6 +776,15 @@
         padding: 0 10px 50px;
         overflow-y: auto;
         height: 100%;
+
+        .button_buy {
+            margin-top: 10px;  
+        }
+    
+        .twitter-icon{
+            margin-left: 0px;
+            margin-top: 10px;
+        }
     }
     .mainmenu-nav {
         display: block;
@@ -905,6 +914,20 @@
             padding: 0;
             margin-top: 10px;
         }    
+    }
+
+    .twitter-icon{
+        margin-left: 10px;
+        width: 55px;
+        height: 55px;
+        background-color: #dddddd;
+        border-radius: 50px; 
+        font-size: 25px;
+        padding: 10px; 
+        text-align: center;      
+        &:hover{
+            background-color: #acd5e6;    
+        }
     }
     
     li.button_mint {

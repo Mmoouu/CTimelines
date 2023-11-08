@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import HeaderOne from '../common/header/HeaderOne';
+import HeaderPos from '../common/header/HeaderPos';
 import SEO from '../common/SEO';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
@@ -17,7 +17,7 @@ const ErrorPage = () => {
         <SEO title="404 Not Found" />
         <ColorSwitcher />
             <main className="main-wrapper">
-                <HeaderOne />
+                <HeaderPos />
                 <div className="error-page onepage-screen-area">
                     <div className="container">
                         <div className="row align-items-center">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { FaAngleDown } from "react-icons/fa";
+import { FaAngleDown, FaTwitter } from "react-icons/fa";
+
 
 
 const Nav = () => {
@@ -37,9 +38,10 @@ const Nav = () => {
                     </ul>
                 </li> */}
                 <li className="menu-item-has-children">
-                    <Link to="#">NFT Collections<FaAngleDown /></Link>
+                    <Link to="#">Collections<FaAngleDown /></Link>
                     <ul className="axil-submenu">
                         <li><NavLink to={process.env.PUBLIC_URL + "/cardano-timeline-2022"}>Cardano Timeline 2022</NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/cardano-timeline-2023"}>Cardano Timeline 2023</NavLink></li>
                         <li><NavLink to={process.env.PUBLIC_URL + "/coming-soon"}>Research Timeline 2023</NavLink></li>
                     </ul>
                 </li>
@@ -48,8 +50,10 @@ const Nav = () => {
                 {/* <li><a target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022">Buy on <img alt={'jpgstore'} src={process.env.PUBLIC_URL + '/images/icon/jpgstore-light.svg'}></img></a></li> */}
                 <li className="menu-item-has-children button_buy">
                     <a target={'_blank'} href="https://www.jpg.store/collection/ctimelines-cardanotimeline2022">Get on jpg.store </a>
-                    {/* <img alt={'jpgstore'} src={process.env.PUBLIC_URL + '/images/icon/jpgstore-light.svg'}></img> */}
                 </li>
+                                                   
+                <a className="twitter-icon" target={'_blank'} href="https://twitter.com/CTimelines_io"><FaTwitter /></a>
+                
                 {/* <li className="menu-item-has-children button_buy">on
                     <Link to="#">Mint<FaAngleDown /></Link>
                     <ul className="axil-submenu">

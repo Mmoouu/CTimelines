@@ -27,6 +27,7 @@
     "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0",
     "react-tilty": "^2.0.3",
+    "react-youtube": "^10.1.0",
     "web-vitals": "^2.1.2"
   },
   "scripts": {

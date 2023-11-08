@@ -185,10 +185,10 @@ const RoadMapCTimelines2023 = () => {
 								{/* <!-- start item --> */}
 								<div className="__item __item--active __item--current">
 									<i className="__point"></i>
-									<span className="__line __line--active"></span>
+									
 
 									<span className="__text __text--first">
-									TBD (to de defined)
+									September 11, 2023
 									</span>
 
 									<h5 className="__text __text--second">

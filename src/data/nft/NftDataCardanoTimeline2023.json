@@ -1,0 +1,24 @@
+[
+    {   
+        "id": 0,
+        "thumb": {
+            "sm": "/images/nft/cardano-timeline-2023/cover_0A_200px.gif",
+            "md": "/images/nft/cardano-timeline-2023/cover_0A_600px.gif",
+            "lg": "/images/nft/cardano-timeline-2023/cover_0A_1200px.gif"
+        },        
+        "file1": "/images/nft/cardano-timeline-2023/cover_0B.png",
+        "timelinePhase": {
+            "phase": "/images/nft/cardano-timeline-2023/cover_0C.png",
+            "phaseThumb": "/images/nft/cardano-timeline-2023/cover_0C_thumb.png"
+        } ,
+        "collection":"Cardano Timeline 2023 NFT Collection",
+        "title1": "",
+        "title2": "Cardano Timeline 2023",
+        "designation": "Full Infographic",
+        "dataOne": "Collect all 6 NFT fragments to get this NFT.",
+        "social": {
+            "poolPm": "https://pool.pm/asset1svtzxqfhhdrvhdktr2rf6e2t7u8np2x4uwl98h",
+            "jpgStore": "https://www.jpg.store/collection/ctimelines-cardanotimeline2022"
+        }
+    }
+]

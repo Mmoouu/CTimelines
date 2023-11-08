@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import {useParams} from 'react-router-dom';
 import FooterSimple from '../common/footer/FooterSimple';
-import HeaderOne from '../common/header/HeaderOne';
+import HeaderPos from '../common/header/HeaderPos';
 import SEO from '../common/SEO';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
@@ -29,7 +29,7 @@ const TeamDetails = () => {
         <SEO title="Team" />
         {/* <ColorSwitcher /> */}
             <main className="main-wrapper">
-                <HeaderOne />
+                <HeaderPos />
                 <BreadCrumbOne 
                 //  title={detailsTeam.title}
                  page="Team Details"

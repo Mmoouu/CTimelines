@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import SEO from '../common/SEO';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import { Link } from 'react-router-dom';
-import HeaderOne from '../common/header/HeaderOne';
+import HeaderPos from '../common/header/HeaderPos';
 import ReactGA from 'react-ga';
 
 
@@ -17,7 +17,7 @@ const ComingSoon = () => {
         <SEO title="Coming Soon" />
         <ColorSwitcher />
             <main className="main-wrapper">
-            <HeaderOne />
+            <HeaderPos />
                 <div className="coming-soon-area onepage-screen-area">
                     <div className="container">
                         <div className="row align-items-center justify-content-center">
