@@ -1,0 +1,41 @@
+[
+    {   "id": 1,
+        "thumb": "/images/team/team-1.png",
+        "title": "Juan Manuel Castro Pippo (Jotape)",
+        "designation": "CTimelines Founder & Project Manager",
+        "description": "Hello! I am passionate about technology and innovation. I was born in 1990 and I have always had a great interest in everything related to technology, especially in the world of blockchain.<br>I am a strong defender of the conservation of the environment and I try to lead a respectful life with the environment.<br>I love to stay active by being physically active outdoors. For the last two years I have been especially involved in running.<br>I firmly believe that sports and nutrition are essential to maintain a healthy mind and body.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/jotapippo" ,
+            "twitter": "https://twitter.com/jotapippo",
+            "instagram": "https://www.instagram.com/juan.pippo/",
+            "telegram": "https://t.me/jotapippo",
+            "behance": ""
+        }
+    },
+    {   "id": 2,
+        "thumb": "/images/team/team-2.png",
+        "title": "Juan Francisco Razzini (Juancho)",
+        "designation": "Infographics Designer",
+        "description": "Hello! I am a 32-year-old graphic designer, passionate about creativity and innovation.<br>I currently work in a television production company, where I apply my design skills to create unique and captivating audiovisual pieces.<br>Lately I have been learning about 3D modeling, which has allowed me to explore new forms of expression in my work as a graphic designer.<br>I like to challenge myself and look for ways to continue growing as a professional and as a person. Thank you for visiting my profile!",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/juan-razzini/" ,
+            "twitter": "",
+            "instagram": "https://www.instagram.com/juan.razzini/",
+            "telegram": "https://t.me/mauro_hf",
+            "behance": "https://www.behance.net/juanfrazzif00d" 
+        }
+    },
+    {   "id": 3,
+        "thumb": "/images/team/team-3.png",
+        "title": "Mauro Hernán Falcone (Mou)",
+        "designation": "Branding & UX Designer",
+        "description": "My goal is to leave a mark in each place, exchanging knowledge, learning to take on challenges that allow me to grow in my professional career.<br>I enjoy working with challenges that require innovation, creativity, management and commitment.<br>I consider myself a proactive and self-taught person, right now focused on increasing my knowledge in programming, IT project management and network security.<br>Graphic designer with more than 10 years of experience working both freelance and under a dependency relationship.",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/mauro-hernan-falcone/" ,
+            "twitter": "https://twitter.com/mauricio_hf",
+            "instagram": "",
+            "telegram": "https://t.me/mauro_hf",
+            "behance": ""
+        }
+    }
+]

@@ -1,0 +1,156 @@
+[
+    {   
+        "id": 0,
+        "thumb": {
+            "sm": "/images/nft/cardano-timeline-2022/cover_0A_200px.gif",
+            "md": "/images/nft/cardano-timeline-2022/cover_0A_600px.gif",
+            "lg": "/images/nft/cardano-timeline-2022/cover_0A_1200px.gif"
+        },        
+        "file1": "/images/nft/cardano-timeline-2022/cover_0B.png",
+        "timelinePhase": {
+            "phase": "/images/nft/cardano-timeline-2022/cover_0C.png",
+            "phaseThumb": "/images/nft/cardano-timeline-2022/cover_0C_thumb.png"
+        } ,
+        "collection":"Cardano Timeline 2022 NFT Collection",
+        "title1": "",
+        "title2": "Cardano Timeline 2022",
+        "designation": "NFT (Full Infographic)",
+        "dataOne": "Collect all 6 NFT fragments to get this NFT.",
+        "social": {
+            "poolPm": "https://pool.pm/asset1svtzxqfhhdrvhdktr2rf6e2t7u8np2x4uwl98h",
+            "jpgStore": "https://www.jpg.store/collection/ctimelines-cardanotimeline2022"
+        }
+    },
+    {   
+        "id": 1,
+        "thumb": {
+            "sm": "/images/nft/cardano-timeline-2022/cover_1A_200px.gif",
+            "md": "/images/nft/cardano-timeline-2022/cover_1A_600px.gif",
+            "lg": "/images/nft/cardano-timeline-2022/cover_1A_1200px.gif"
+        },
+        "file1": "/images/nft/cardano-timeline-2022/cover_1B.png",
+        "timelinePhase": {
+            "phase": "/images/nft/cardano-timeline-2022/cover_1C.png",
+            "phaseThumb": "/images/nft/cardano-timeline-2022/cover_1C_thumb.png"
+        } ,
+        "collection":"Cardano Timeline 2022 NFT Collection",
+        "title1": "CT2022",
+        "title2": "#1 Pre-BYRON",
+        "designation": "NFT (Fragment)",
+        "dataOne": "Pre-Foundation Era",
+        "social": {
+            "poolPm": "https://pool.pm/asset187753m3r05cxlly7nl7dqk65ga30xek8q0u4t3",   
+            "jpgStore": "https://www.jpg.store/collection/ctimelines-cardanotimeline2022"
+        }
+    },
+    {   
+        "id": 2,
+        "thumb": {
+            "sm": "/images/nft/cardano-timeline-2022/cover_2A_200px.gif",
+            "md": "/images/nft/cardano-timeline-2022/cover_2A_600px.gif",
+            "lg": "/images/nft/cardano-timeline-2022/cover_2A_1200px.gif"
+        },
+        "file1": "/images/nft/cover_2B.png",
+        "timelinePhase": {
+            "phase": "/images/nft/cardano-timeline-2022/cover_2C.png",
+            "phaseThumb": "/images/nft/cardano-timeline-2022/cover_2C_thumb.png"
+        } ,
+        "collection":"Cardano Timeline 2022 NFT Collection",
+        "title1": "CT2022",
+        "title2": "#2 BYRON",
+        "designation": "NFT (Fragment)",
+        "dataOne": "Foundation Era",
+        "social": {
+            "poolPm": "https://pool.pm/asset1sw6v37uanjpwfu562nvqjhv76f5t5mfew089gx",
+            "jpgStore": "https://www.jpg.store/collection/ctimelines-cardanotimeline2022"
+        }
+    },
+    {   
+        "id": 3,
+        "thumb": {
+            "sm": "/images/nft/cardano-timeline-2022/cover_3A_200px.gif",
+            "md": "/images/nft/cardano-timeline-2022/cover_3A_600px.gif",
+            "lg": "/images/nft/cardano-timeline-2022/cover_3A_1200px.gif"
+        },
+        "file1": "/images/nft/cardano-timeline-2022/cover_3B.png",
+        "timelinePhase": {
+            "phase": "/images/nft/cardano-timeline-2022/cover_3C.png",
+            "phaseThumb": "/images/nft/cardano-timeline-2022/cover_3C_thumb.png"
+        } ,
+        "collection":"Cardano Timeline 2022 NFT Collection",
+        "title1": "CT2022",
+        "title2": "#3 SHELLEY",
+        "designation": "NFT (Fragment)",
+        "dataOne": "Decentralization Era",
+        "social": {
+            "poolPm": "https://pool.pm/asset16hqst5060ha9eux0rtu942qu2kgqzwcy7v5qsj",
+            "jpgStore": "https://www.jpg.store/collection/ctimelines-cardanotimeline2022"
+        }
+    },
+    {   
+        "id": 4,
+        "thumb": {
+            "sm": "/images/nft/cardano-timeline-2022/cover_4A_200px.gif",
+            "md": "/images/nft/cardano-timeline-2022/cover_4A_600px.gif",
+            "lg": "/images/nft/cardano-timeline-2022/cover_4A_1200px.gif"
+        },
+        "file1": "/images/nft/cardano-timeline-2022/cover_4B.png",
+        "timelinePhase": {
+            "phase": "/images/nft/cardano-timeline-2022/cover_4C.png",
+            "phaseThumb": "/images/nft/cardano-timeline-2022/cover_4C_thumb.png"
+        } ,
+        "collection":"Cardano Timeline 2022 NFT Collection",
+        "title1": "CT2022",
+        "title2": "#4 GOGUEN",
+        "designation": "NFT (Fragment)",
+        "dataOne": "Smart Contracts Era",
+        "social": {
+            "poolPm": "https://pool.pm/asset1qxrgwnu7u5g7x080hve0payqh4n0nwtmrwu0xw",
+            "jpgStore": "https://www.jpg.store/collection/ctimelines-cardanotimeline2022"
+        }
+    },
+    {   
+        "id": 5,
+        "thumb": {
+            "sm": "/images/nft/cardano-timeline-2022/cover_5A_200px.gif",
+            "md": "/images/nft/cardano-timeline-2022/cover_5A_600px.gif",
+            "lg": "/images/nft/cardano-timeline-2022/cover_5A_1200px.gif"
+        },
+        "file1": "/images/nft/cardano-timeline-2022/cover_5B.png",
+        "timelinePhase": {
+            "phase": "/images/nft/cardano-timeline-2022/cover_5C.png",
+            "phaseThumb": "/images/nft/cardano-timeline-2022/cover_5C_thumb.png"
+        } ,
+        "collection":"Cardano Timeline 2022 NFT Collection",
+        "title1": "CT2022",
+        "title2": "#5 BASHO",
+        "designation": "NFT (Fragment)",
+        "dataOne": "Scalability Era",
+        "social": {
+            "poolPm": "https://pool.pm/asset1yeytl76k2gary3rndw32k6rwk4lhsmnf5prewa",
+            "jpgStore": "https://www.jpg.store/collection/ctimelines-cardanotimeline2022"
+        }
+    },
+    {   
+        "id": 6,
+        "thumb": {
+            "sm": "/images/nft/cardano-timeline-2022/cover_6A_200px.gif",
+            "md": "/images/nft/cardano-timeline-2022/cover_6A_600px.gif",
+            "lg": "/images/nft/cardano-timeline-2022/cover_6A_1200px.gif"
+        },
+        "file1": "/images/nft/cardano-timeline-2022/cover_6B.png",
+        "timelinePhase": {
+            "phase": "/images/nft/cardano-timeline-2022/cover_6C.png",
+            "phaseThumb": "/images/nft/cardano-timeline-2022/cover_6C_thumb.png"
+        } ,
+        "collection":"Cardano Timeline 2022 NFT Collection",
+        "title1": "CT2022",
+        "title2": "#6 VOLTAIRE",
+        "designation": "NFT (Fragment)",
+        "dataOne": "Governance Era",
+        "social": {
+            "poolPm": "https://pool.pm/asset164xpr9l80rtytzd8hyumczydvfdvejc60m0vnc",
+            "jpgStore": "https://www.jpg.store/collection/ctimelines-cardanotimeline2022"
+        }
+    }
+]
