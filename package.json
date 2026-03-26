@@ -42,6 +42,9 @@
       "react-app/jest"
     ]
   },
+  "overrides": {
+    "minimatch": ">=3.1.4"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
